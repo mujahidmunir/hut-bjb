@@ -34,7 +34,7 @@
                             </div>
                             <div class="col-6">
                                 <div class="form-group">
-                                    <button type="button" id="reset" value="Filter" class="btn btn-primary btn-block">
+                                    <button type="button" id="reset" value="Filter" class="btn btn-danger btn-block">
                                         Reset
                                     </button>
                                 </div>
