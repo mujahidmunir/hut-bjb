@@ -32,7 +32,7 @@ Route::get('/profile',  [UserController::class, 'Index']);
 Route::post('/profile',  [UserController::class, 'ChangePassword']);
 
 Route::get('promo-bank-bjb', [PromoController::class, 'PromoAll']);
-Route::get('promo-bank-bjb/search', [PromoController::class], 'Search');
+Route::get('promo-bank-bjb/{slug}', [PromoController::class , 'Detail']);
 
 Auth::routes();
 

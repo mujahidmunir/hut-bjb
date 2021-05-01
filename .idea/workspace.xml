@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5bac1f41-0325-4726-99e6-55b76573cbd3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Framework/resources/views/pages/promo/detail-promo.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/app/Helpers/Promo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/app/Helpers/Promo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/app/Http/Controllers/PromoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/app/Http/Controllers/PromoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/resources/views/layouts/assets/menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/resources/views/layouts/assets/menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/resources/views/master/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/resources/views/master/master.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Framework/resources/views/pages/promo/view-all.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/resources/views/pages/promo/view-all.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/backend.min0ff5.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/backend.min0ff5.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,12 +232,23 @@
       <workItem from="1619670623950" duration="1275000" />
       <workItem from="1619701202536" duration="2769000" />
       <workItem from="1619706185747" duration="12528000" />
-      <workItem from="1619783184549" duration="22691000" />
+      <workItem from="1619783184549" duration="26271000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="560" y="238" key="#Deployment" timestamp="1619534972929">
@@ -226,10 +264,10 @@
       <screen x="0" y="23" width="1920" height="1124" />
     </state>
     <state x="629" y="237" key="#phpunit.xml/0.23.1920.1124@0.23.1920.1124" timestamp="1619811708744" />
-    <state x="782" y="513" key="NewPhpFileDialog" timestamp="1619854950202">
-      <screen x="0" y="23" width="1920" height="1124" />
+    <state x="782" y="524" key="NewPhpFileDialog" timestamp="1619893885507">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="782" y="524" key="NewPhpFileDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1619255682087" />
+    <state x="782" y="524" key="NewPhpFileDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1619893885507" />
     <state x="782" y="503" key="NewPhpFileDialog/0.23.1920.1100@0.23.1920.1100" timestamp="1619628692345" />
     <state x="782" y="513" key="NewPhpFileDialog/0.23.1920.1124@0.23.1920.1124" timestamp="1619854950202" />
     <state x="808" y="480" key="WebDeployment.AddServerDialog.v.1" timestamp="1619534915389">
@@ -240,12 +278,12 @@
       <screen x="0" y="23" width="1920" height="1100" />
     </state>
     <state x="660" y="325" width="600" height="524" key="find.popup/0.23.1920.1100@0.23.1920.1100" timestamp="1619613115351" />
-    <state x="625" y="268" width="670" height="738" key="search.everywhere.popup" timestamp="1619887680804">
-      <screen x="0" y="0" width="1920" height="1200" />
+    <state x="625" y="274" width="670" height="691" key="search.everywhere.popup" timestamp="1619896374359">
+      <screen x="0" y="23" width="1920" height="1124" />
     </state>
-    <state x="625" y="268" width="670" height="738" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1619887680804" />
+    <state x="625" y="268" width="670" height="738" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1619895344743" />
     <state x="625" y="269" width="670" height="676" key="search.everywhere.popup/0.23.1920.1100@0.23.1920.1100" timestamp="1619629516149" />
-    <state x="625" y="274" width="670" height="691" key="search.everywhere.popup/0.23.1920.1124@0.23.1920.1124" timestamp="1619873896597" />
+    <state x="625" y="274" width="670" height="691" key="search.everywhere.popup/0.23.1920.1124@0.23.1920.1124" timestamp="1619896374359" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

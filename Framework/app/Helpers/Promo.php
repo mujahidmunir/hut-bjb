@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\DB;
 
 class Promo {
     public static function Promo(){
-        return $promo = Information::whereParentId(33)->select('thumb')
+        return $promo = Information::whereParentId(33)->select('thumb', 'news_slug')
             ->orderBy(DB::raw('RAND()'))
             ->limit(12)
             ->get();

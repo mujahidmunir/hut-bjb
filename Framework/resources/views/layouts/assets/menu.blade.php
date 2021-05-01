@@ -24,11 +24,20 @@
                             </a>
                         </li>
 
-                        <li class="{{'product' == request()->path() ? 'active-menu' : ''}}">
-                            <a href="{{url('profile')}}" aria-expanded="false" class="font-size-20 ">
-                                <i class="fa fa-newspaper-o iq-arrow-left"></i><span>bjb Point</span>
+                        <li class="{{'promo-bank-bjb' == request()->path() ? 'active-menu' : ''}}">
+                            <a href="{{url('promo-bank-bjb')}}" aria-expanded="false" class="font-size-20 ">
+                                <i class="fa fa-newspaper-o iq-arrow-left"></i><span>Promo</span>
                             </a>
                         </li>
+
+
+
+                        <li class="{{'product' == request()->path() ? 'active-menu' : ''}}">
+                            <a href="{{url('profile')}}" aria-expanded="false" class="font-size-20 ">
+                                <i class="fa fa-newspaper-o iq-arrow-left"></i><span>Program</span>
+                            </a>
+                        </li>
+
 
 
                         @guest()

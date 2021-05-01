@@ -65,7 +65,8 @@
             $.get("{{url('api/get-promo/all')}}", function (data) {
                 data.map(function (v) {
                     $('.Promo').append('<div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">\n' +
-                        '                <div class="card" style="border-radius: 30px;">\n' +
+                        '                <div class="card" style="border-radius: 30px;"> ' +
+                        '                  <a href="{{url('promo-bank-bjb')}}/' + v.news_slug + ' "> \n' +
                         '                    <div class="card-body">\n' +
                         '                        <img src="{{URL::to('images/news/thumb')}}/' + v.thumb + '" class="card-img-top" alt="#">\n' +
                         '                    </div>\n' +
@@ -90,10 +91,11 @@
                         '                            </div>\n' +
                         '\n' +
                         '                        </div>\n' +
+                        '                       </a>'+
                         '                    </div>\n' +
                         '                </div>\n' +
-                        '            </div>')
-                })
+                        '            </div></a>')
+                });
             });
 
 
@@ -137,7 +139,8 @@
                     $('.Promo').html('');
                     data[0].map(function (v) {
                         $('.Promo').append('<div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">\n' +
-                            '                <div class="card" style="border-radius: 30px;">\n' +
+                            '                <div class="card" style="border-radius: 30px;"> ' +
+                            '                  <a href="{{url('promo-bank-bjb')}}/' + v.news_slug + ' "> \n' +
                             '                    <div class="card-body">\n' +
                             '                        <img src="{{URL::to('images/news/thumb')}}/' + v.thumb + '" class="card-img-top" alt="#">\n' +
                             '                    </div>\n' +
@@ -162,10 +165,11 @@
                             '                            </div>\n' +
                             '\n' +
                             '                        </div>\n' +
+                            '                       </a>'+
                             '                    </div>\n' +
                             '                </div>\n' +
-                            '            </div>')
-                    })
+                            '            </div></a>')
+                    });
                 }
             });
         });
@@ -178,7 +182,8 @@
                 $('.showAlert').html('');
                 data.map(function (v) {
                     $('.Promo').append('<div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">\n' +
-                        '                <div class="card" style="border-radius: 30px;">\n' +
+                        '                <div class="card" style="border-radius: 30px;"> ' +
+                        '                  <a href="{{url('promo-bank-bjb')}}/' + v.news_slug + ' "> \n' +
                         '                    <div class="card-body">\n' +
                         '                        <img src="{{URL::to('images/news/thumb')}}/' + v.thumb + '" class="card-img-top" alt="#">\n' +
                         '                    </div>\n' +
@@ -203,9 +208,10 @@
                         '                            </div>\n' +
                         '\n' +
                         '                        </div>\n' +
+                        '                       </a>'+
                         '                    </div>\n' +
                         '                </div>\n' +
-                        '            </div>')
+                        '            </div></a>')
                 });
             });
         })

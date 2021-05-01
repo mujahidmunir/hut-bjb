@@ -3,7 +3,7 @@
 
 @include('layouts.assets.head')
 
-<body class="dahboard-2">
+<body class="body">
 <!-- loader Start -->
 <div id="loading">
     <div id="loading-center">
