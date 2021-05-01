@@ -1,0 +1,41 @@
+<?php
+
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\JsonController;
+
+/*
+|--------------------------------------------------------------------------
+| API Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register API routes for your application. These
+| routes are loaded by the RouteServiceProvider within a group which
+| is assigned the "api" middleware group. Enjoy building your API!
+|
+*/
+
+Route::middleware('auth:api')->get('/user', function (Request $request) {
+    return $request->user();
+});
+
+Route::get('/users', [JsonController::class, 'Load']);
+Route::get('/cat', [JsonController::class, 'NewsCategories']);
+Route::get('/cat/{id}', [JsonController::class, 'NewsCategories']);
+
+Route::get('/parent', [JsonController::class, 'CatParent']);
+Route::post('/cat', [JsonController::class, 'CatStore']);
+
+Route::post('city', [JsonController::class, 'City']);
+Route::get('get-url/{id}/{slug}', [JsonController::class, 'GetUrl']);
+
+Route::post('/create/news', [JsonController::class, 'CreateNews']);
+
+Route::get('/get-promo/all' , [JsonController::class, 'GetPromoAll']);
+Route::get('/get-city', [JsonController::class, 'getCity']);
+Route::get('/get-categories', [JsonController::class, 'getCategories']);
+
+
+
+
+
