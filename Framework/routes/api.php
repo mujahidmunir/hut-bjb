@@ -35,7 +35,7 @@ Route::get('/get-promo/all' , [JsonController::class, 'GetPromoAll']);
 Route::get('/get-city', [JsonController::class, 'getCity']);
 Route::get('/get-categories', [JsonController::class, 'getCategories']);
 
-
+Route::post('search' , [JsonController::class, 'Search']);
 
 
 

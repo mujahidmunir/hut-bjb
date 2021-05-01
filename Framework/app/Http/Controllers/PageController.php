@@ -8,6 +8,7 @@ use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Str;
 use Jenssegers\Agent\Agent;
 
 
@@ -66,6 +67,16 @@ class PageController extends Controller
     }
     public function slider(){
         return view('slider');
+    }
+
+    public function asdf(){
+        $news = Information::select('thumb', 'id')->get();
+
+        foreach ($news as $data){
+           Information::whereId($data->id)->update([
+               'thumb' => Str::lower($data->thumb)
+           ]);
+        }
     }
 
 

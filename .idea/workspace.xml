@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bac1f41-0325-4726-99e6-55b76573cbd3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Framework/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/app/Http/Controllers/JsonController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/app/Http/Controllers/JsonController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/app/Http/Controllers/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/app/Http/Controllers/PageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/resources/views/pages/promo/view-all.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/resources/views/pages/promo/view-all.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +210,7 @@
       <workItem from="1619670623950" duration="1275000" />
       <workItem from="1619701202536" duration="2769000" />
       <workItem from="1619706185747" duration="12528000" />
-      <workItem from="1619783184549" duration="16902000" />
+      <workItem from="1619783184549" duration="22553000" />
     </task>
     <servers />
   </component>
@@ -240,12 +245,12 @@
       <screen x="0" y="23" width="1920" height="1100" />
     </state>
     <state x="660" y="325" width="600" height="524" key="find.popup/0.23.1920.1100@0.23.1920.1100" timestamp="1619613115351" />
-    <state x="625" y="274" width="670" height="691" key="search.everywhere.popup" timestamp="1619865487827">
-      <screen x="0" y="23" width="1920" height="1124" />
+    <state x="625" y="268" width="670" height="738" key="search.everywhere.popup" timestamp="1619887680804">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="625" y="268" width="670" height="738" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1619274588316" />
+    <state x="625" y="268" width="670" height="738" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1619887680804" />
     <state x="625" y="269" width="670" height="676" key="search.everywhere.popup/0.23.1920.1100@0.23.1920.1100" timestamp="1619629516149" />
-    <state x="625" y="274" width="670" height="691" key="search.everywhere.popup/0.23.1920.1124@0.23.1920.1124" timestamp="1619865487827" />
+    <state x="625" y="274" width="670" height="691" key="search.everywhere.popup/0.23.1920.1124@0.23.1920.1124" timestamp="1619873896597" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

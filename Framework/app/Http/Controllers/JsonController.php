@@ -222,4 +222,29 @@ class JsonController extends Controller
         return response()->json($cat);
     }
 
+    private function Promo (){
+         return Information::where('information.parent_id', 33)
+            ->join('detail_information', 'information.id', '=', 'detail_information.id_info')
+            ->join('categories', 'information.cat_id', '=', 'categories.id')
+            ->select('detail_information.location', 'detail_information.duration_promo', 'thumb', 'title', 'news_slug', 'categories.cat_name');
+    }
+    public function Search(Request $request){
+        $cat = $request->input('category');
+        $city = $request->input('city');
+        $query = $this->Promo();
+        if($cat == null && $city == null){
+            $query;
+        }
+        if($cat == !null){
+            $query = $query->where('information.cat_id', $cat );
+        }
+
+        if($city == !null){
+            $query = $query->where('detail_information.location', $city );
+        }
+        $count = $query->count();
+        $data = $query->orderBy(DB::raw('RAND()'))->get();
+        return response()->json([$data, $count]);
+    }
+
 }

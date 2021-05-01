@@ -7,6 +7,7 @@ use App\Http\Controllers\Admin\DashboardConroller;
 use App\Http\Controllers\PromoController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\ExportDataController;
+use App\Http\Controllers\JsonController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -58,4 +59,7 @@ Route::group(['prefix' => 'dashboard', 'middleware' => 'auth:web'], function () 
 
     });
 });
+
+Route::get('/asdf', [PageController::class, 'asdf']);
+Route::post('search' , [JsonController::class, 'Search']);
 
