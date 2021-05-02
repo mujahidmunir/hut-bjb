@@ -10,7 +10,6 @@
                                 <p class="text-white text-center mb-5">{{$data->title}}</p>
                             </div>
                             <div class="pro-content rounded">
-
                                 <div class="d-flex align-items-center mb-3">
                                     <div class="p-icon mr-3">
                                         <i class="fa fa-map-marker"></i>

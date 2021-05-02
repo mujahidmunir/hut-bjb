@@ -41,7 +41,13 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::group(['prefix' => 'dashboard', 'middleware' => 'auth:web'], function () {
     Route::group(['middleware' => ['role:admin']], function () {
         Route::get('/', [DashboardConroller::class, 'Index']);
-        Route::get('/news', [NewsController::class, 'Index']);
+        Route::get('/list-news' , [DashboardConroller::class, 'ListNews']);
+        Route::get('/list-promo' , [DashboardConroller::class, 'ListPromo']);
+        Route::get('/list-program' , [DashboardConroller::class, 'ListProgram']);
+        Route::get('/list-all' , [DashboardConroller::class, 'ListAll']);
+
+
+        //Route::get('/news', [NewsController::class, 'Index']);
         Route::get('/news/create', [NewsController::class, 'Create']);
         Route::post('/news/create', [NewsController::class, 'Store']);
         Route::post('/news/create/{id}', [NewsController::class, 'Update']);

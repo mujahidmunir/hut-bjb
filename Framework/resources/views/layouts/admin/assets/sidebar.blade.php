@@ -1,8 +1,8 @@
 <div class="main-menu menu-fixed menu-light menu-accordion menu-shadow" data-scroll-to-active="true">
     <div class="navbar-header">
         <ul class="nav navbar-nav flex-row">
-            <li class="nav-item mr-auto"><a class="navbar-brand" href="index-2.html"><span class="brand-logo">
-                <svg viewbox="0 0 139 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="24">
+            <li class="nav-item mr-auto"><a class="navbar-brand" href="{{url('dashboard')}}"><span class="brand-logo">
+                <svg viewbox="0 0 139 95" version="1.1" xmlns="" xmlns:xlink="http://www.w3.org/1999/xlink" height="24">
                   <defs>
                     <lineargradient id="linearGradient-1" x1="100%" y1="10.5120544%" x2="50%" y2="89.4879456%">
                       <stop stop-color="#000000" offset="0%"></stop>
@@ -50,6 +50,15 @@
 {{--            </li>--}}
             <li class=" navigation-header"><span data-i18n="Apps &amp; Pages">Artikel dan Berita </span><i data-feather="more-horizontal"></i>
             </li>
+            <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i data-feather="credit-card"></i><span class="menu-title text-truncate" data-i18n="Card">View Post</span></a>
+                <ul class="menu-content">
+                    <li class="{{ request()->is('dashboard/list-program') ? 'active' : ''}}"><a class="d-flex align-items-center" href="{{url('dashboard/list-program')}}"><i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="Basic">Program</span></a></li>
+                    <li class="{{ request()->is('dashboard/list-promo') ? 'active' : ''}}"><a class="d-flex align-items-center" href="{{url('dashboard/list-promo')}}"><i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="Basic">Promo</span></a></li>
+                    <li class="{{ request()->is('dashboard/list-news') ? 'active' : ''}}"><a class="d-flex align-items-center" href="{{url('dashboard/list-news')}}"><i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="Basic">Berita</span></a></li>
+                    <li class="{{ request()->is('dashboard/list-all') ? 'active' : ''}}"><a class="d-flex align-items-center" href="{{url('dashboard/list-all')}}"><i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="Basic">Semua</span></a></li>
+
+                </ul>
+            </li>
             <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i data-feather='edit'></i><span class="menu-title text-truncate">Create Post</span></a>
                 <ul class="menu-content">
                     <li><a class="d-flex align-items-center" href="#"><i data-feather='circle'></i><span class="menu-item text-truncate" data-i18n="Second Level">News</span></a>
@@ -69,6 +78,7 @@
 
                         </ul>
                     </li>
+
                     <li><a class="d-flex align-items-center" href="#"><i data-feather='circle'></i><span class="menu-item text-truncate" data-i18n="Second Level">Program & Promo</span></a>
                         <ul class="menu-content">
                             <li class="{{ request()->is('dashboard/program/view/*') ? 'active' : ''}}">

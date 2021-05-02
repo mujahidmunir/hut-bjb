@@ -3,6 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\JsonController;
+use App\Http\Controllers\JsonAdminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -36,6 +37,16 @@ Route::get('/get-city', [JsonController::class, 'getCity']);
 Route::get('/get-categories', [JsonController::class, 'getCategories']);
 
 Route::post('search' , [JsonController::class, 'Search']);
+
+//Admin
+
+Route::get('/admin/get-news', [JsonAdminController::class, 'GetNews']);
+Route::get('/admin/get-promo', [JsonAdminController::class, 'GetPromo']);
+Route::get('/admin/get-program', [JsonAdminController::class, 'GetProgram']);
+Route::get('/admin/get-info-all', [JsonAdminController::class, 'GetInfoAll']);
+Route::get('/admin/get-dashboard' , [JsonController::class, 'getDashboard']);
+
+
 
 
 

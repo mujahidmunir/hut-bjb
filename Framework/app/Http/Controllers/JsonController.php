@@ -8,6 +8,8 @@ use App\Models\City;
 use App\Models\DetailInformation;
 use App\Models\Information;
 use App\Models\User;
+use App\Models\Visitor;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Intervention\Image\ImageManagerStatic;
@@ -245,6 +247,15 @@ class JsonController extends Controller
         $count = $query->count();
         $data = $query->orderBy(DB::raw('RAND()'))->get();
         return response()->json([$data, $count]);
+    }
+
+    public function getDashboard(){
+        $data ['news'] = Information::whereParentId(1)->count();
+        $data ['program'] = Information::whereParentId(32)->count();
+        $data ['promo'] = Information::whereParentId(33)->count();
+        $data ['total_visitor'] = Visitor::count();
+        $data ['today_visitor'] = Visitor::whereDate('created_at', Carbon::today())->count();
+        return response()->json($data);
     }
 
 }

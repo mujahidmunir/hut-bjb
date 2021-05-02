@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\DetailPoint;
 use App\Models\Information;
 use App\Models\User;
+use App\Models\Visitor;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Redirect;
@@ -15,6 +16,15 @@ use Jenssegers\Agent\Agent;
 class PageController extends Controller
 {
     public function Index(){
+        if(Auth::check()){
+            $usr = Auth::user()->id;
+        } else {
+            $usr = 0;
+        }
+        Visitor::create([
+            'usr_visitor' => $usr
+        ]);
+
         $data ['agent'] = new Agent();
         $data ['news'] = Information::limit(8)->get();
         return view ('index', $data);
@@ -29,10 +39,6 @@ class PageController extends Controller
         return view ('pages.news.news', $data);
     }
 
-    public function DetailEvent($slug){
-        return  view ('pages.events.detail-event');
-
-    }
 
     public function DetailNew($slug){
         $news = Information::whereNewsSlug($slug)->first();
