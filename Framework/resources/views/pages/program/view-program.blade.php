@@ -74,14 +74,6 @@
                         '                        <div class="row container">\n' +
                         '                            <h6 class="font-weight-bold" style="font-size: 1.5vh;">' + v.title + '</h6>\n' +
                         '                        </div>\n' +
-                        '                        <div class="row" style="font-size: 1.5vh;">\n' +
-                        '                            <div class="container mt-1">\n' +
-                        '                                <small class="text-muted float-right"><i class="fa fa-clock"></i>' + v.cat_name + '\n' +
-                        '                                </small>\n' +
-                        '                            </div>\n' +
-                        '\n' +
-                        '                        </div>\n' +
-                        '\n' +
                         '                       </a>'+
                         '                    </div>\n' +
                         '                </div>\n' +
@@ -139,14 +131,6 @@
                             '                        <div class="row container">\n' +
                             '                            <h6 class="font-weight-bold" style="font-size: 1.5vh;">' + v.title + '</h6>\n' +
                             '                        </div>\n' +
-                            '                        <div class="row" style="font-size: 1.5vh;">\n' +
-                            '                            <div class="container mt-1">\n' +
-                            '                                <small class="text-muted float-right"><i class="fa fa-clock"></i>' + v.cat_name + '\n' +
-                            '                                </small>\n' +
-                            '                            </div>\n' +
-                            '\n' +
-                            '                        </div>\n' +
-                            '\n' +
                             '                       </a>'+
                             '                    </div>\n' +
                             '                </div>\n' +
@@ -173,14 +157,6 @@
                         '                        <div class="row container">\n' +
                         '                            <h6 class="font-weight-bold" style="font-size: 1.5vh;">' + v.title + '</h6>\n' +
                         '                        </div>\n' +
-                        '                        <div class="row" style="font-size: 1.5vh;">\n' +
-                        '                            <div class="container mt-1">\n' +
-                        '                                <small class="text-muted float-right"><i class="fa fa-clock"></i>' + v.cat_name + '\n' +
-                        '                                </small>\n' +
-                        '                            </div>\n' +
-                        '\n' +
-                        '                        </div>\n' +
-                        '\n' +
                         '                       </a>'+
                         '                    </div>\n' +
                         '                </div>\n' +
