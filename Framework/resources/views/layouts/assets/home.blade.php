@@ -126,7 +126,7 @@
                                     <div class="blog-meta d-flex align-items-center justify-content-between mb-2">
                                         <div class="author">bank bjb</div>
                                     </div>
-                                    <p>{!!$data->thumb_desc!!}</p>
+                                    <p>{{$data->thumb_desc}}</p>
                                     <a href="{{url('news/'.$data->news_slug)}}" tabindex="-1">Read More <i
                                             class="ri-arrow-right-s-line"></i></a>
                                 </div>
