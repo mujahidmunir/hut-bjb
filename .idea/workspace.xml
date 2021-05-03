@@ -20,15 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bac1f41-0325-4726-99e6-55b76573cbd3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Framework/resources/views/pages/promo/detail-promo.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Framework/app/Helpers/Promo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/app/Helpers/Promo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Framework/app/Http/Controllers/PromoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/app/Http/Controllers/PromoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Framework/resources/views/layouts/assets/menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/resources/views/layouts/assets/menu.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Framework/resources/views/master/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/resources/views/master/master.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Framework/resources/views/pages/promo/view-all.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/resources/views/pages/promo/view-all.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Framework/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/backend.min0ff5.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/backend.min0ff5.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -232,7 +224,9 @@
       <workItem from="1619670623950" duration="1275000" />
       <workItem from="1619701202536" duration="2769000" />
       <workItem from="1619706185747" duration="12528000" />
-      <workItem from="1619783184549" duration="26271000" />
+      <workItem from="1619783184549" duration="26367000" />
+      <workItem from="1619949870446" duration="6275000" />
+      <workItem from="1620020232116" duration="124000" />
     </task>
     <servers />
   </component>
@@ -249,27 +243,28 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="560" y="238" key="#Deployment" timestamp="1619534972929">
       <screen x="0" y="23" width="1920" height="1100" />
     </state>
     <state x="560" y="238" key="#Deployment/0.23.1920.1100@0.23.1920.1100" timestamp="1619534972929" />
-    <state x="698" y="342" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1619863403586">
+    <state x="698" y="342" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1619960889809">
       <screen x="0" y="23" width="1920" height="1124" />
     </state>
     <state x="698" y="335" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1920.1100@0.23.1920.1100" timestamp="1619618317440" />
-    <state x="698" y="342" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1920.1124@0.23.1920.1124" timestamp="1619863403586" />
+    <state x="698" y="342" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1920.1124@0.23.1920.1124" timestamp="1619960889809" />
     <state x="629" y="237" key="#phpunit.xml" timestamp="1619811708744">
       <screen x="0" y="23" width="1920" height="1124" />
     </state>
     <state x="629" y="237" key="#phpunit.xml/0.23.1920.1124@0.23.1920.1124" timestamp="1619811708744" />
-    <state x="782" y="524" key="NewPhpFileDialog" timestamp="1619893885507">
-      <screen x="0" y="0" width="1920" height="1200" />
+    <state x="782" y="513" key="NewPhpFileDialog" timestamp="1619960639444">
+      <screen x="0" y="23" width="1920" height="1124" />
     </state>
     <state x="782" y="524" key="NewPhpFileDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1619893885507" />
     <state x="782" y="503" key="NewPhpFileDialog/0.23.1920.1100@0.23.1920.1100" timestamp="1619628692345" />
-    <state x="782" y="513" key="NewPhpFileDialog/0.23.1920.1124@0.23.1920.1124" timestamp="1619854950202" />
+    <state x="782" y="513" key="NewPhpFileDialog/0.23.1920.1124@0.23.1920.1124" timestamp="1619960639444" />
     <state x="808" y="480" key="WebDeployment.AddServerDialog.v.1" timestamp="1619534915389">
       <screen x="0" y="23" width="1920" height="1100" />
     </state>
@@ -278,12 +273,12 @@
       <screen x="0" y="23" width="1920" height="1100" />
     </state>
     <state x="660" y="325" width="600" height="524" key="find.popup/0.23.1920.1100@0.23.1920.1100" timestamp="1619613115351" />
-    <state x="625" y="274" width="670" height="691" key="search.everywhere.popup" timestamp="1619896374359">
+    <state x="625" y="274" width="670" height="691" key="search.everywhere.popup" timestamp="1620020280561">
       <screen x="0" y="23" width="1920" height="1124" />
     </state>
     <state x="625" y="268" width="670" height="738" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1619895344743" />
     <state x="625" y="269" width="670" height="676" key="search.everywhere.popup/0.23.1920.1100@0.23.1920.1100" timestamp="1619629516149" />
-    <state x="625" y="274" width="670" height="691" key="search.everywhere.popup/0.23.1920.1124@0.23.1920.1124" timestamp="1619896374359" />
+    <state x="625" y="274" width="670" height="691" key="search.everywhere.popup/0.23.1920.1124@0.23.1920.1124" timestamp="1620020280561" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
