@@ -32,9 +32,15 @@
                                 <input type="text" name="title" id="title" class="form-control" required/>
                             </div>
                             <div class="form-group">
+                                <label class="form-label" for="basic-addon-name">Masa Berlaku</label>
+                                <input type="text" name="duration" id="duration" class="form-control" required/>
+                            </div>
+
+                            <div class="form-group">
                                 <label for="select-country1">Content</label>
                                 <textarea id="redactor" class="description" name="description"></textarea>
                             </div>
+
                             <div class="form-group">
                                 <label>Image</label>
                                 <input type="file" name="img" required id="file" class="form-control">

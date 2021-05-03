@@ -117,13 +117,18 @@ class JsonController extends Controller
                 'media' => $media,
                 'icon' => $NameIcon
             ]);
-
+            if($request->input('duration')){
+                $durasi = $request->input('duration');
+            } else {
+                $durasi = '';
+            }
             //detail information
             DetailInformation::create([
                 'id_info' => $create->id,
                 'description' => $request->input('description'),
                 'slug' => Str::slug($title),
-                'video_url' => $video_url
+                'video_url' => $video_url,
+                'duration_promo' => $durasi
             ]);
 
             //update media Information
