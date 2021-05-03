@@ -43,7 +43,9 @@ Route::get('program-bank-bjb/{slug}', [ProgramController::class , 'Detail']);
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', function (){
+    return redirect('/');
+});
 
 Route::group(['prefix' => 'dashboard', 'middleware' => 'auth:web'], function () {
     Route::group(['middleware' => ['role:admin']], function () {
