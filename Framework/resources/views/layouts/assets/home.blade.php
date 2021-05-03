@@ -29,7 +29,7 @@
                                 <div class="col-6">
                                     <div class="image-block position-relative">
                                         <a href="{{url('program-bank-bjb/'.$data->news_slug)}}">
-                                        <img src="{{URL::to('images/news/thumb/'.$data->thumb)}}" class="img-fluid" style="border-radius: 10px"
+                                        <img src="{{URL::to('images/news/icon/'.$data->thumb)}}" class="img-fluid" style="border-radius: 10px"
                                              alt="blog-img">
                                         </a>
                                     </div>
