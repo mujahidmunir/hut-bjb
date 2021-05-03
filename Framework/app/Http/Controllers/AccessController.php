@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Str;
 use RealRashid\SweetAlert\Facades\Alert;
 
 class AccessController extends Controller
@@ -25,6 +26,7 @@ class AccessController extends Controller
 
     public function register(Request $request){
         $phone  = $request->input('phone');
+        $name = $request->input('name');
         $email = $request->input('email');
         $city = $request->input('city_id');
         $pass = Hash::make('hutbjb60');
@@ -36,13 +38,24 @@ class AccessController extends Controller
             Alert::error('Gagal', 'No Telepon Sudah Digunakan');
             return back();
         }
-        $cekCity  = City::whereId($request->input('city_id'))->count();
+        $cekCity  = City::whereCityName($request->input('city_id'))->first();
+
         if(!$cekCity){
             Alert::error('Gagal', 'Perikasa kembali nama kota, atau bisa memilih sugesti nama kota anda');
             return back();
         }
 
-        return 'berhasil';
+        $user =  User::create([
+            'name' => $name,
+            'phone' => $phone,
+            'email' => $email,
+            'city_id' => $cekCity->id,
+            'access_code' => Str::random('8'),
+            'point' => 0,
+            'password' => $pass
+        ]);
+
+        Auth::login($user);
     }
 
 }

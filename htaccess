@@ -5,6 +5,8 @@
 
     RewriteEngine On
 
+    RewriteCond %{SERVER_PORT} 80
+    RewriteRule ^(.*)$ https://60anniversary.bjb-events.com/$1 [R,L]
 
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
