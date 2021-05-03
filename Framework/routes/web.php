@@ -42,7 +42,7 @@ Route::get('program-bank-bjb', [ProgramController::class, 'Program']);
 Route::get('program-bank-bjb/{slug}', [ProgramController::class , 'Detail']);
 
 Auth::routes();
-
+Route::get('/maukeluar', [\App\Http\Controllers\HomeController::class, 'index']);
 Route::get('/home', function (){
     return redirect('/');
 });
