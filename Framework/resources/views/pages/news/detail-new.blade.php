@@ -29,16 +29,18 @@
                                 </div>
 
                             </div>
-                            <h4 class="mb-2">{{$data->title}}</h4>
+                            <h4 class="mb-5"><u>{{$data->title}}</u></h4>
                             <p>
                                 {!! $data->description !!}
                             </p>
+                            @if($data->video_url == !null)
                             <div class="embed-responsive embed-responsive-4by3">
                                 <iframe class="embed-responsive-item"
                                         src="https://www.youtube.com/embed/{{$data->video_url}}"
                                         allowfullscreen></iframe>
 
                             </div>
+                                @endif
                         </div>
                     </div>
                 </div>

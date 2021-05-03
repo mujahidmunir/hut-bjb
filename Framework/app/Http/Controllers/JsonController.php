@@ -91,7 +91,7 @@ class JsonController extends Controller
                 $video_url = $request->input('video_url');
                 $media = 1;
             } else {
-                $video_url = '';
+                $video_url = null;
                 $media = 0;
             }
 
