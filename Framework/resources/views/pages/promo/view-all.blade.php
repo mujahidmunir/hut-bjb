@@ -1,5 +1,7 @@
 @extends('master.master')
-
+@section('slider')
+    @include('layouts.assets.banner')
+@endsection
 @section('content')
 
     <div class="col-12 container mt-3 mb-3">
