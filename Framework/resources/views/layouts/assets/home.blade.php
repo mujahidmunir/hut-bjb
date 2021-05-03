@@ -28,8 +28,8 @@
                             <div class="row" style="margin: -1.5vh; margin-left: -25px;">
                                 <div class="col-6">
                                     <div class="image-block position-relative">
-                                        <a href="{{url('program-bank-bjb/'.$data->cat_slug)}}">
-                                        <img src="{{URL::to('images/categories/'.$data->cat_thumb)}}" class="img-fluid" style="border-radius: 10px"
+                                        <a href="{{url('program-bank-bjb/'.$data->news_slug)}}">
+                                        <img src="{{URL::to('images/news/thumb/'.$data->thumb)}}" class="img-fluid" style="border-radius: 10px"
                                              alt="blog-img">
                                         </a>
                                     </div>
@@ -37,7 +37,7 @@
                                 <div class="col-6">
                                     <div class="blog-description mt-3">
                                         <div class="font-weight-bold mb-3"
-                                             style="font-size: 1.2vh;">{{$data->cat_title}}</div>
+                                             style="font-size: 1.2vh;">{{$data->title}}</div>
 {{--                                        @if($agent->isPhone())--}}
 
 {{--                                        @else--}}
@@ -51,7 +51,7 @@
                             </div>
                         </div>
                         <div class="card-footer">
-                            <a href="{{url('program-bank-bjb', $data->cat_slug)}}" style="font-size: 1.2vh" class="btn btn-primary btn-block">Lihat</a>
+                            <a href="{{url('program-bank-bjb', $data->news_slug)}}" style="font-size: 1.2vh" class="btn btn-primary btn-block">Lihat</a>
                         </div>
                     </div>
                 </div>
