@@ -142,7 +142,9 @@ class JsonController extends Controller
     public function Load(){
         \Cache::forget('my_users');
         $user = \Cache::remember('my_users', now()->addMinutes(5), function () {
-            return User::all();
+            return User::join('cities' , 'users.city_id', '=' , 'cities.id')
+                ->select('users.*' , 'cities.city_name')
+                ->get();
 //                ->map(function ($user) {
 //                    $user->nik = substr($user->nik, 0, 8);
 //                    $user->nik2 = substr($user->nik, 8, 8);

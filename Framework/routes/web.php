@@ -70,6 +70,8 @@ Route::group(['prefix' => 'dashboard', 'middleware' => 'auth:web'], function () 
         Route::get('/upload', [ExportDataController::class, 'Upload']);
         Route::post('/upload', [ExportDataController::class, 'Import']);
 
+        Route::get('/users' , [DashboardConroller::class, 'Users']);
+
 
 
     });

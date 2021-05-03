@@ -24,5 +24,9 @@ class DashboardConroller extends Controller
         return view ('admin.view.view-all');
     }
 
+    public function Users(){
+        return view ('admin.user.view-user');
+    }
+
 
 }
