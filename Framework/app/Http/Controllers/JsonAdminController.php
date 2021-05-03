@@ -35,11 +35,12 @@ class JsonAdminController extends Controller
     public function GetInfoAll(){
         $data = Information::join('detail_information' , 'information.id' , '=' , 'detail_information.id_info')
             ->join('categories' , 'information.cat_id' , '=' , 'categories.id')
+            ->join('categories as ParentId' , 'information.parent_id' , '=' , 'ParentId.id')
             ->select(
                 'categories.cat_name',
                 'information.title', 'information.seen',
                 'detail_information.location','detail_information.cabang','detail_information.pic_name',
-                'detail_information.no_wa'
+                'detail_information.no_wa', 'ParentId.cat_name as Parent_id'
             )
             ->get();
         return response()->json($data);
