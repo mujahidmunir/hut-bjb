@@ -23,28 +23,31 @@
                             fill="#4788ff"/>
                     </svg>
                     <h2 class="mb-2 mt-3 text-primary">{{Auth::user()->point}}</h2>
-                    <h4>Point</h4>
+                    <h4>Total Point</h4>
                 </div>
             </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6">
             <div class="card card-block card-stretch card-height">
                 <div class="card-body text-center">
-                    <img src="{{URL::to('images/logo/phone.png')}}" width="50" height="50" alt="brand">
-                    <h2 class="mb-2 mt-3 text-success">{{Auth::user()->phone}} </h2>
+                    <img src="{{URL::to('images/logo/phone1.png')}}" width="50" height="50" alt="brand">
+                    <h2 class="mb-2 mt-3">{{Auth::user()->phone}} </h2>
                     <h4>No Handphone</h4>
                 </div>
             </div>
         </div>
+
         <div class="col-lg-4 col-md-6 col-sm-6">
             <div class="card card-block card-stretch card-height">
                 <div class="card-body text-center">
-                    <img src="{{URL::to('images/logo/password.png')}}" width="50" height="50" alt="brand">
-                    <br>
-                    <button class="btn btn-primary mt-3" data-toggle="modal" data-target="#ChangePassword">Ganti Password</button>
+                    <img src="{{URL::to('images/logo/key.png')}}" width="50" height="50" alt="brand">
+                    <h2 class="mb-2 mt-3 text-danger">{{Auth::user()->access_code}} </h2>
+                    <h4>Kode Akses</h4>
                 </div>
             </div>
         </div>
+
+
     </div>
 @endsection
 
