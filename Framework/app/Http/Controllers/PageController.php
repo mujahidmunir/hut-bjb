@@ -8,6 +8,7 @@ use App\Models\User;
 use App\Models\Visitor;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Str;
 use Jenssegers\Agent\Agent;
@@ -26,7 +27,10 @@ class PageController extends Controller
         ]);
 
         $data ['agent'] = new Agent();
-        $data ['news'] = Information::limit(8)->get();
+        $data ['news'] = Information::whereParentId(1)
+            ->orderBy(DB::raw('RAND()'))
+            ->limit(8)
+            ->get();
         return view ('index', $data);
     }
 
