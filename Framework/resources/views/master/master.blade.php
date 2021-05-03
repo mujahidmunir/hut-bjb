@@ -3,7 +3,7 @@
 
 @include('layouts.assets.head')
 
-<body class="body">
+<body class="">
 <!-- loader Start -->
 <div id="loading">
     <div id="loading-center">
