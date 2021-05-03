@@ -68,7 +68,7 @@
                 // } else {
                 //     status = '<div class="badge badge-glow badge-success text-center">Pegawai</div>';
                 // }
-                res.push([i + 1, v.name, v.email,v.access_code,v.point,v.city_name, v.phone, '<a href="#" data-toggle="modal" data-target="#changepassword" class="btn btn-primary btn-sm" onclick="cp(' + v.nik + ')">Modal</a>'])
+                res.push([i + 1, v.name, v.email,v.access_code,v.point,v.city_name, v.phone, '<a href="#" data-toggle="modal" data-target="#changepassword" class="btn btn-primary btn-sm" onclick="cp(' + v.nik + ')">Detail</a>'])
             });
             $('#myuser').DataTable({
                 lengthChange: true,
