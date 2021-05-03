@@ -32,8 +32,8 @@
 
 
 
-                        <li class="{{'product' == request()->path() ? 'active-menu' : ''}}">
-                            <a href="{{url('profile')}}" aria-expanded="false" class="font-size-20 ">
+                        <li class="{{'program-bank-bjb' == request()->path() ? 'active-menu' : ''}}">
+                            <a href="{{url('program-bank-bjb')}}" aria-expanded="false" class="font-size-20 ">
                                 <i class="fa fa-newspaper-o iq-arrow-left"></i><span>Program</span>
                             </a>
                         </li>
@@ -42,8 +42,8 @@
 
                         @guest()
                             <li class="">
-                                <a href="{{url('login')}}" aria-expanded="false" class="font-size-20 ">
-                                    <i class="fa fa-sign-in iq-arrow-left"></i><span>Login</span>
+                                <a href="{{url('login')}}" aria-expanded="false" class="font-size-20 btn btn-sm btn-warning">
+                                    <i class="fa fa-sign-in iq-arrow-left"></i><span>Registrasi</span>
                                 </a>
                             </li>
 

@@ -33,6 +33,8 @@ Route::get('get-url/{id}/{slug}', [JsonController::class, 'GetUrl']);
 Route::post('/create/news', [JsonController::class, 'CreateNews']);
 
 Route::get('/get-promo/all' , [JsonController::class, 'GetPromoAll']);
+Route::get('/get-program/all' , [JsonController::class, 'GetProgramAll']);
+
 Route::get('/get-city', [JsonController::class, 'getCity']);
 Route::get('/get-categories', [JsonController::class, 'getCategories']);
 

@@ -28,8 +28,10 @@
                             <div class="row" style="margin: -1.5vh; margin-left: -25px;">
                                 <div class="col-6">
                                     <div class="image-block position-relative">
+                                        <a href="{{url('program-bank-bjb/'.$data->cat_slug)}}">
                                         <img src="{{URL::to('images/categories/'.$data->cat_thumb)}}" class="img-fluid" style="border-radius: 10px"
                                              alt="blog-img">
+                                        </a>
                                     </div>
                                 </div>
                                 <div class="col-6">
@@ -49,7 +51,7 @@
                             </div>
                         </div>
                         <div class="card-footer">
-                            <a href="" style="font-size: 1.2vh" class="btn btn-primary btn-block">Lihat</a>
+                            <a href="{{url('program-bank-bjb', $data->cat_slug)}}" style="font-size: 1.2vh" class="btn btn-primary btn-block">Lihat</a>
                         </div>
                     </div>
                 </div>
@@ -58,9 +60,9 @@
         </div><!-- End .featured-proucts -->
     </div>
     <div class="col-lg-12">
-        <div class="card-body" style="margin-top: -40px; margin-right: -30px; ">
+        <div class="card-body" style="margin-top: -20px; margin-right: -30px; ">
             <div class="text-product-right">
-                <a href=""
+                <a href="{{url('program-bank-bjb')}}"
                    style="padding: 7px 20px 7px 20px;">Lihat Lainnya</a>
             </div>
         </div>
@@ -80,7 +82,9 @@
         @foreach(\App\Helpers\Promo::Promo() as $data)
         <div class="col-sm-3 col-md-2 col-lg-2 col-xl-2 col-4">
             <div class="card" style="border-radius: 60px;">
+                <a href="{{url('promo-bank-bjb', $data->news_slug)}}">
                 <img src="{{URL::to('images/news/thumb', $data->thumb)}}" class="card-img-top" alt="#">
+                </a>
             </div>
         </div>
         @endforeach

@@ -7,11 +7,6 @@
 @endsection
 <body class="body-login">
 
-<div id="loading">
-    <div id="loading-center">
-
-    </div>
-</div>
 <!-- loader END -->
 <!-- Wrapper Start -->
 <div class="wrapper">
@@ -47,16 +42,45 @@
                     @enderror
 
                     <div class="row align-items-top">
-
                         <div class="col-lg-6 p-5">
                             <div class="title-product mb-2">
                                 <div class="text-product">
                                     <div class="text-left">
-                                        Pengguna Baru, Registrasi Disini
+                                        Masuk dengan Kode Akses
                                     </div>
                                 </div>
                             </div>
-                            <form action="{{route('register')}}" method="post">
+                            <form action="{{url('access-code')}}" method="post">
+                                @csrf
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="floating-label form-group">
+                                            <input type="password"
+                                                   class="floating-input form-control @error('email') is-invalid @enderror"
+                                                   name="access_code" value="" required
+                                                   autofocus placeholder="Masukan 8 Digit Akses Kode">
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary mt-2 btn-block" style="height: 50px;">Masuk</button>
+                                <div class="float-right">
+
+                                </div>
+                            </form>
+                            <div class="row">
+                                <img src="{{URL::to('images/iphone12.png')}}" class="img-iphone">
+                            </div>
+
+                        </div>
+                        <div class="col-lg-6 p-5">
+                            <div class="title-product mb-2">
+                                <div class="text-product">
+                                    <div class="text-left">
+                                        Registrasi ( Non Undangan )
+                                    </div>
+                                </div>
+                            </div>
+                            <form action="{{url('auth-register')}}" method="post">
                                 @csrf
                                 <div class="row">
                                     <div class="col-lg-12">
@@ -84,22 +108,6 @@
                                         </div>
                                     </div>
 
-
-                                    <div class="col-lg-12">
-                                        <div class="floating-label form-group">
-                                            <input type="password"
-                                                   class="floating-input form-control"
-                                                   name="password" value="{{ old('password') }}" required autocomplete="password"
-                                                   autofocus placeholder="Password">
-
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <div class="floating-label form-group">
-                                        <input type="password" class="floating-input form-control" name="password_confirmation" placeholder="Konfrimasi Password">
-                                        </div>
-                                    </div>
-
                                     <div class="col-lg-12">
                                         <div class="floating-label form-group">
                                             <input class="floating-input form-control" id="city" type="text" name="city_id" placeholder="Kota">
@@ -110,52 +118,7 @@
                                 <button type="submit" class="btn btn-primary mt-2 btn-block" style="height: 50px;">Daftar</button>
                             </form>
                         </div>
-                        <div class="col-lg-6 p-5">
-                            <div class="title-product mb-2">
-                                <div class="text-product">
-                                    <div class="text-left">
-                                        Sudah Punya Akun ? Login disini
 
-                                    </div>
-                                </div>
-                            </div>
-                            <form action="{{route('login')}}" method="post">
-                                @csrf
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="floating-label form-group">
-                                            <input type="email"
-                                                   class="floating-input form-control @error('email') is-invalid @enderror"
-                                                   name="email" value="{{ old('email') }}" required autocomplete="email"
-                                                   autofocus placeholder="E-mail">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <div class="floating-label form-group">
-                                            <input type="password"
-                                                   class="floating-input form-control @error('password') is-invalid @enderror"
-                                                   name="password" value="{{ old('password') }}" required autocomplete="password"
-                                                   autofocus placeholder="Password">
-
-                                            @error('password')
-                                            <span class="invalid-feedback" role="alert">
-                                                <strong>{{ $message }}</strong>
-                                            </span>
-                                            @enderror
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <button type="submit" class="btn btn-primary mt-2 btn-block" style="height: 50px;">Masuk</button>
-                                <div class="float-right">
-
-                                </div>
-                            </form>
-                            <div class="row">
-                                <img src="{{URL::to('images/iphone12.png')}}" class="img-iphone">
-                            </div>
-
-                        </div>
                     </div>
                 </div>
             </div>

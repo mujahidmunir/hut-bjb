@@ -8,6 +8,8 @@ use App\Http\Controllers\PromoController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\ExportDataController;
 use App\Http\Controllers\JsonController;
+use App\Http\Controllers\ProgramController;
+use App\Http\Controllers\AccessController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,6 +20,8 @@ use App\Http\Controllers\JsonController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::post('/access-code' , [AccessController::class, 'login']);
+Route::post('/auth-register' , [AccessController::class, 'register']);
 
 Route::get('/test', [\App\Http\Controllers\TestController::class,  'test']);
 Route::get('/', [PageController::class, 'Index']);
@@ -33,6 +37,9 @@ Route::post('/profile',  [UserController::class, 'ChangePassword']);
 
 Route::get('promo-bank-bjb', [PromoController::class, 'PromoAll']);
 Route::get('promo-bank-bjb/{slug}', [PromoController::class , 'Detail']);
+
+Route::get('program-bank-bjb', [ProgramController::class, 'Program']);
+Route::get('program-bank-bjb/{slug}', [ProgramController::class , 'Detail']);
 
 Auth::routes();
 

@@ -212,6 +212,19 @@ class JsonController extends Controller
         return response()->json($promo);
     }
 
+    public function GetProgramAll()
+    {
+        $promo = Information::where('information.parent_id', 32)
+            ->join('detail_information', 'information.id', '=', 'detail_information.id_info')
+            ->join('categories', 'information.cat_id', '=', 'categories.id')
+            ->select('detail_information.location', 'detail_information.duration_promo', 'thumb', 'title', 'news_slug', 'categories.cat_name')
+            ->orderBy(DB::raw('RAND()'))
+            ->get();
+        return response()->json($promo);
+    }
+
+
+
     public function getCity(){
         $city = Promo::City();
         return response()->json($city);
