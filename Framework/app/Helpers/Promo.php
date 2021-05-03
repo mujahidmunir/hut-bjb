@@ -23,7 +23,7 @@ class Promo {
     }
 
     public static function Cat (){
-        return Category::whereNotNull('parent_id')
+        return Category::where('parent_id', 33)
             ->orderBy('cat_name' , 'ASC')
             ->get();
     }
