@@ -61,7 +61,7 @@ class JsonController extends Controller
     public function CreateNews(Request $request){
         $title = $request->input('title');
         $thumb_desc = Str::limit($request->input('description'), 100);
-
+        $slug = Str::limit($title, 30);
         $cek = Information::whereNewsSlug(Str::slug($title))->first();
         if($cek){
             $msg = '<strong>Gagal</strong>'. ', Judul Berita Sudah Tersedia';
@@ -113,7 +113,7 @@ class JsonController extends Controller
                 'thumb' => $file_name,
                 'cat_id' => $request->input('cat_id'),
                 'parent_id' => $parentId->parent_id,
-                'news_slug' => Str::slug($title),
+                'news_slug' => Str::slug($slug),
                 'media' => $media,
                 'icon' => $NameIcon
             ]);
@@ -126,7 +126,7 @@ class JsonController extends Controller
             DetailInformation::create([
                 'id_info' => $create->id,
                 'description' => $request->input('description'),
-                'slug' => Str::slug($title),
+                'slug' => Str::slug($slug),
                 'video_url' => $video_url,
                 'duration_promo' => $durasi
             ]);
