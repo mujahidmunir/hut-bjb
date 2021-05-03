@@ -35,8 +35,8 @@
                         <tr>
                             <th>No</th>
                             <th>Store Name</th>
-                            <th>Category</th>
                             <th>Menu</th>
+                            <th>Category</th>
                             <th>Location</th>
                             <th>Seen</th>
                             <th>Cabang</th>
@@ -71,7 +71,7 @@
                 // } else {
                 //     status = '<div class="badge badge-glow badge-success text-center">Pegawai</div>';
                 // }
-                res.push([i + 1,v.title, v.cat_name,v.Parent_id,v.location,v.seen,v.cabang,v.pic_name,'0'+v.no_wa, '<a href="#" data-toggle="modal" data-target="#changepassword" class="btn btn-primary btn-sm" onclick="cp(' + v.nik + ')">Modal</a>'])
+                res.push([i + 1,v.title, v.Parent_id,v.cat_name,v.location,v.seen,v.cabang,v.pic_name,'0'+v.no_wa, '<a href="#" data-toggle="modal" data-target="#changepassword" class="btn btn-primary btn-sm" onclick="cp(' + v.nik + ')">Modal</a>'])
             });
             $('#myuser').DataTable({
                 lengthChange: true,
