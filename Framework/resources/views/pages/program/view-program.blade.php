@@ -9,43 +9,43 @@
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-12 container mt-3 mb-3">
-            <form method="post" id="search">
-                @csrf
-                <div class="row">
-                    <div class="col-lg-4 col-sm-4">
-                        <div class="form-group">
-                            <select id="Category" name="category" class=" form-control"></select>
-                        </div>
+{{--    <div class="row">--}}
+{{--        <div class="col-12 container mt-3 mb-3">--}}
+{{--            <form method="post" id="search">--}}
+{{--                @csrf--}}
+{{--                <div class="row">--}}
+{{--                    <div class="col-lg-4 col-sm-4">--}}
+{{--                        <div class="form-group">--}}
+{{--                            <select id="Category" name="category" class=" form-control"></select>--}}
+{{--                        </div>--}}
 
-                    </div>
-                    <div class="col-lg-4 col-sm-4">
-                        <div class="form-group">
-                            <select id="City" name="city" class="form-control"></select>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-4">
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <input type="submit" value="Filter" class="btn btn-primary btn-block">
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <button type="button" id="reset" value="Filter" class="btn btn-danger btn-block">
-                                        Reset
-                                    </button>
-                                </div>
-                            </div>
+{{--                    </div>--}}
+{{--                    <div class="col-lg-4 col-sm-4">--}}
+{{--                        <div class="form-group">--}}
+{{--                            <select id="City" name="city" class="form-control"></select>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-lg-4 col-sm-4">--}}
+{{--                        <div class="row">--}}
+{{--                            <div class="col-6">--}}
+{{--                                <div class="form-group">--}}
+{{--                                    <input type="submit" value="Filter" class="btn btn-primary btn-block">--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                            <div class="col-6">--}}
+{{--                                <div class="form-group">--}}
+{{--                                    <button type="button" id="reset" value="Filter" class="btn btn-danger btn-block">--}}
+{{--                                        Reset--}}
+{{--                                    </button>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
 
-                        </div>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </form>--}}
+{{--        </div>--}}
+{{--    </div>--}}
     <div class=" col-12 showAlert">
 
     </div>
