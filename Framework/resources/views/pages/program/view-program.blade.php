@@ -68,7 +68,7 @@
                         '                <div class="card" style="border-radius: 30px;"> ' +
                         '                  <a href="{{url('promo-bank-bjb')}}/' + v.news_slug + ' "> \n' +
                         '                    <div class="card-body">\n' +
-                        '                        <img src="{{URL::to('images/news/thumb')}}/' + v.thumb + '" class="card-img-top" alt="#">\n' +
+                        '                        <img src="{{URL::to('images/news/icon')}}/' + v.thumb + '" class="card-img-top" alt="#">\n' +
                         '                    </div>\n' +
                         '                    <div class="card-footer" style="min-height: 100px; background-color: rgb(214 238 251);">\n' +
                         '                        <div class="row container">\n' +
