@@ -21,28 +21,28 @@
     						'dots': false,
     						'nav': true
     					}">
-            @foreach(\App\Helpers\Promo::Promo() as $data)
+            @foreach(\App\Helpers\Program::Program() as $data)
                 <div class="container">
                     <div class="card card-bordered program" style="border: 3px solid #02aeef;">
                         <div class="card-body">
                             <div class="row" style="margin: -1.5vh; margin-left: -25px;">
                                 <div class="col-6">
                                     <div class="image-block position-relative">
-                                        <img src="{{URL::to('images/news/thumb/'.$data->thumb)}}" class="img-fluid rounded"
+                                        <img src="{{URL::to('images/categories/'.$data->cat_thumb)}}" class="img-fluid" style="border-radius: 10px"
                                              alt="blog-img">
                                     </div>
                                 </div>
                                 <div class="col-6">
                                     <div class="blog-description mt-3">
                                         <div class="font-weight-bold mb-3"
-                                             style="font-size: 1.2vh;">{{$data->title}}</div>
-                                        @if($agent->isPhone())
+                                             style="font-size: 1.2vh;">{{$data->cat_title}}</div>
+{{--                                        @if($agent->isPhone())--}}
 
-                                        @else
-                                            <div class="blog-meta d-flex align-items-center justify-content-between mb-2 d-none d-lg-flex d-xl-flex d-sm-flex">
-                                                <div class="author">bank bjb adalah bank jawa barat, trus apa lagi</div>
-                                            </div>
-                                        @endif
+{{--                                        @else--}}
+{{--                                            <div class="blog-meta d-flex align-items-center justify-content-between mb-2 d-none d-lg-flex d-xl-flex d-sm-flex">--}}
+{{--                                                <div class="author">bank bjb adalah bank jawa barat, trus apa lagi</div>--}}
+{{--                                            </div>--}}
+{{--                                        @endif--}}
 
                                     </div>
                                 </div>

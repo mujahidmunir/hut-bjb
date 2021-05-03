@@ -9240,7 +9240,7 @@ a.text-dark:focus, a.text-dark:hover {
 
 .card {
     background: #fff;
-    border-radius: 30px;
+    border-radius: 15px;
     margin-bottom: 30px;
     -ms-box-shadow: 0 16px 40px 0 rgba(0, 0, 0, .0392157);
     -o-box-shadow: 0 16px 40px 0 rgba(0, 0, 0, .0392157);

@@ -66,6 +66,8 @@ Route::group(['prefix' => 'dashboard', 'middleware' => 'auth:web'], function () 
     });
 });
 
-Route::get('/asdf', [PageController::class, 'asdf']);
+//Route::get('/asdf', [PageController::class, 'asdf']);
 Route::post('search' , [JsonController::class, 'Search']);
 
+
+Route::post('/asdf' , [JsonController::class, 'CreateNews']);

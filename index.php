@@ -44,9 +44,15 @@ require __DIR__.'/Framework/vendor/autoload.php';
 |
 */
 
+
+
 $app = require_once __DIR__.'/Framework/bootstrap/app.php';
 
 $kernel = $app->make(Kernel::class);
+
+$app->bind('path.public', function() {
+    return __DIR__;
+});
 
 $response = tap($kernel->handle(
     $request = Request::capture()

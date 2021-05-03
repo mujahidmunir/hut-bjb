@@ -56,57 +56,17 @@
                     <li class="{{ request()->is('dashboard/list-promo') ? 'active' : ''}}"><a class="d-flex align-items-center" href="{{url('dashboard/list-promo')}}"><i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="Basic">Promo</span></a></li>
                     <li class="{{ request()->is('dashboard/list-news') ? 'active' : ''}}"><a class="d-flex align-items-center" href="{{url('dashboard/list-news')}}"><i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="Basic">Berita</span></a></li>
                     <li class="{{ request()->is('dashboard/list-all') ? 'active' : ''}}"><a class="d-flex align-items-center" href="{{url('dashboard/list-all')}}"><i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="Basic">Semua</span></a></li>
-
                 </ul>
             </li>
             <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i data-feather='edit'></i><span class="menu-title text-truncate">Create Post</span></a>
                 <ul class="menu-content">
                     <li><a class="d-flex align-items-center" href="#"><i data-feather='circle'></i><span class="menu-item text-truncate" data-i18n="Second Level">News</span></a>
                         <ul class="menu-content">
-                            <li class="{{ request()->is('dashboard/news') ? 'active' : ''}}" >
-                                <a class="d-flex align-items-center" href="{{url('dashboard/news')}}"><i data-feather='chevron-right'></i><span class="menu-item text-truncate" data-i18n="Third Level">View All News</span></a>
-                            </li>
                             <li class="{{ request()->is('dashboard/news/*') ? 'active' : ''}}">
                                 <a class="d-flex align-items-center" href="{{url('dashboard/news/create')}}"><i data-feather='chevron-right'></i><span class="menu-item text-truncate" data-i18n="Third Level">Create News</span></a>
                             </li>
-                            <li>
-                                <a class="d-flex align-items-center" href="#"><i data-feather='chevron-right'></i><span class="menu-item text-truncate" data-i18n="Third Level">Pro Liga</span></a>
-                            </li>
-                            <li>
-                                <a class="d-flex align-items-center" href="#"><i data-feather='chevron-right'></i><span class="menu-item text-truncate" data-i18n="Third Level">Bjb Soccer</span></a>
-                            </li>
-
                         </ul>
                     </li>
-
-                    <li><a class="d-flex align-items-center" href="#"><i data-feather='circle'></i><span class="menu-item text-truncate" data-i18n="Second Level">Program & Promo</span></a>
-                        <ul class="menu-content">
-                            <li class="{{ request()->is('dashboard/program/view/*') ? 'active' : ''}}">
-                                <a class="d-flex align-items-center" href="{{url('dashboard/program/view/all')}}"><i data-feather='chevron-right'></i><span class="menu-item text-truncate" data-i18n="Third Level">View All</span></a>
-                            </li>
-                            <li class="{{ request()->is('dashboard/program/create') ? 'active' : ''}}">
-                                <a class="d-flex align-items-center" href="{{url('dashboard/program/create')}}"><i data-feather='chevron-right'></i><span class="menu-item text-truncate" data-i18n="Third Level">Add Promo</span></a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a class="d-flex align-items-center" href="#"><i data-feather='circle'></i><span class="menu-item text-truncate" data-i18n="Second Level">Events</span></a>
-                        <ul class="menu-content">
-                            <li>
-                                <a class="d-flex align-items-center" href="#"><i data-feather='chevron-right'></i><span class="menu-item text-truncate" data-i18n="Third Level">HUT bjb</span></a>
-                            </li>
-                            <li>
-                                <a class="d-flex align-items-center" href="#"><i data-feather='chevron-right'></i><span class="menu-item text-truncate" data-i18n="Third Level">V-Ride</span></a>
-                            </li>
-                            <li>
-                                <a class="d-flex align-items-center" href="#"><i data-feather='chevron-right'></i><span class="menu-item text-truncate" data-i18n="Third Level">Pro Liga</span></a>
-                            </li>
-                            <li>
-                                <a class="d-flex align-items-center" href="#"><i data-feather='chevron-right'></i><span class="menu-item text-truncate" data-i18n="Third Level">Bjb Soccer</span></a>
-                            </li>
-
-                        </ul>
-                    </li>
-
 
                 </ul>
             </li>

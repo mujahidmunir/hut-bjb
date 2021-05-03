@@ -60,7 +60,7 @@ class JsonController extends Controller
 
     public function CreateNews(Request $request){
         $title = $request->input('title');
-        $thumb_desc = Str::limit($request->input('description'), 150);
+        $thumb_desc = Str::limit($request->input('description'), 100);
 
         $cek = Information::whereNewsSlug(Str::slug($title))->first();
         if($cek){
@@ -85,8 +85,6 @@ class JsonController extends Controller
                 $constraint->aspectRatio();
             });
             $upload_img->save(public_path("images/news/thumb/{$file_name}"), 80, 'png');
-
-
 
             //information
             if($request->input('media') == true){
