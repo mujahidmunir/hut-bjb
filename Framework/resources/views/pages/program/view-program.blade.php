@@ -82,15 +82,6 @@
                         '\n' +
                         '                        </div>\n' +
                         '\n' +
-                        '                        <div class="row" style="font-size: 1.5vh;">\n' +
-                        '                            <div class="container mt-1">\n' +
-                        '                                <small class="text-muted"><i class="fa fa-map-marker">&nbsp;</i>' + v.location + '\n' +
-                        '                                </small>\n' +
-                        '                                <small class="text-muted float-right">' + v.duration_promo + '\n' +
-                        '                                    </small>\n' +
-                        '                            </div>\n' +
-                        '\n' +
-                        '                        </div>\n' +
                         '                       </a>'+
                         '                    </div>\n' +
                         '                </div>\n' +
@@ -156,15 +147,6 @@
                             '\n' +
                             '                        </div>\n' +
                             '\n' +
-                            '                        <div class="row" style="font-size: 1.5vh;">\n' +
-                            '                            <div class="container mt-1">\n' +
-                            '                                <small class="text-muted"><i class="fa fa-map-marker">&nbsp;</i>' + v.location + '\n' +
-                            '                                </small>\n' +
-                            '                                <small class="text-muted float-right">' + v.duration_promo + '\n' +
-                            '                                    </small>\n' +
-                            '                            </div>\n' +
-                            '\n' +
-                            '                        </div>\n' +
                             '                       </a>'+
                             '                    </div>\n' +
                             '                </div>\n' +
@@ -199,15 +181,6 @@
                         '\n' +
                         '                        </div>\n' +
                         '\n' +
-                        '                        <div class="row" style="font-size: 1.5vh;">\n' +
-                        '                            <div class="container mt-1">\n' +
-                        '                                <small class="text-muted"><i class="fa fa-map-marker">&nbsp;</i>' + v.location + '\n' +
-                        '                                </small>\n' +
-                        '                                <small class="text-muted float-right">' + v.duration_promo + '\n' +
-                        '                                    </small>\n' +
-                        '                            </div>\n' +
-                        '\n' +
-                        '                        </div>\n' +
                         '                       </a>'+
                         '                    </div>\n' +
                         '                </div>\n' +
