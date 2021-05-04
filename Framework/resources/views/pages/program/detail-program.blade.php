@@ -7,7 +7,7 @@
                     <div class="profile-card rounded">
                         <img src="{{URL::to('images/news/thumb', $data->thumb)}}" alt="profile-bg"
                              class="rounded d-block mx-auto img-fluid mb-3">
-                        <h3 class="font-600 text-white text-center mb-0">bank bjb</h3>
+                        <h5 class="font-100 text-white text-center mb-0">bank bjb</h5>
                         <p class="text-white text-center mb-5">{{$data->title}}</p>
                     </div>
                     <div class="pro-content rounded">
@@ -36,17 +36,13 @@
                     </div>
                 </div>
                 <div class="card-body">
-                    <h5 class="mb-2"><u>Syarat dan Ketentuan</u></h5>
-                    <p>Mendapatkan Diskon 60% dengan maksimum transaksi sebesar Rp.60.000
-                        Dengan Ketentuan :</p>
-                    <ul>
-                        <li>Untuk 60 Orang pertama per-hari&nbsp;</li>
-                        <li>Berlaku untuk 1 kali Transaksi/hari/outlet&nbsp;</li>
-                        <li>Bertransaksi menggunakan bjb Digi & bjb DIgi Cash&nbsp;</li>
-                        <li>{{$data->syarat}}&nbsp;</li>
-                    </ul>
-                    <h5 class="mb-2"><u>Masa Berlaku Promo</u></h5>
-                    <p>{{$data->duration_promo}}</p>
+                    <h5 class="mb-2 container"><u>Keterangan</u></h5>
+                    <p>
+                        {!! $data->description !!}
+                    </p>
+
+                    <h5 class="mt-5 container"><u>Masa Berlaku Promo</u></h5>
+                    <p class="container">{{$data->duration_promo}}</p>
 
                 </div>
             </div>

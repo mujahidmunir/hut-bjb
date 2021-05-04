@@ -7,7 +7,7 @@
     <div class="col-12 container mt-3 mb-3">
         <div class="title-product">
             <div class="text-product text-center">
-                Program bank bjb
+                bjb Lucky Birthday 60
             </div>
         </div>
     </div>

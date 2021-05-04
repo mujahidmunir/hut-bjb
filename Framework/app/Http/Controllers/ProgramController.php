@@ -52,6 +52,6 @@ class ProgramController extends Controller
                 'detail_information.s&k as syarat'
             )
             ->first();
-        return view ('pages.promo.detail-promo', $data);
+        return view ('pages.program.detail-program', $data);
     }
 }
