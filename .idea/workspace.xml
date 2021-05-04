@@ -22,8 +22,6 @@
     <list default="true" id="5bac1f41-0325-4726-99e6-55b76573cbd3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Framework/app/Helpers/Program.php" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/app/Helpers/Program.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Framework/app/Http/Controllers/ProgramController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/app/Http/Controllers/ProgramController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Framework/resources/views/layouts/assets/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/resources/views/layouts/assets/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Framework/resources/views/pages/program/detail-program.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/resources/views/pages/program/detail-program.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Framework/resources/views/pages/program/view-program.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/resources/views/pages/program/view-program.blade.php" afterDir="false" />
     </list>
@@ -232,7 +230,7 @@
       <workItem from="1619949870446" duration="6275000" />
       <workItem from="1620020232116" duration="15401000" />
       <workItem from="1620064114872" duration="6221000" />
-      <workItem from="1620116077400" duration="4757000" />
+      <workItem from="1620116077400" duration="5204000" />
     </task>
     <servers />
   </component>

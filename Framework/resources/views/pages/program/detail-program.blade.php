@@ -56,17 +56,25 @@
         </div>
         <div class="card-body">
             <div class="row">
-                @foreach(\App\Helpers\Promo::Promo() as $data)
-                    <div class="col-sm-3 col-md-2 col-lg-2 col-xl-2 col-4">
-                        <a href="{{url('promo-bank-bjb', $data->news_slug)}}">
-                            <div class="card" style="border-radius: 60px;">
-                                <img src="{{URL::to('images/news/thumb', $data->thumb)}}" class="card-img-top" alt="#">
-                            </div>
-                        </a>
+                @foreach(\App\Helpers\Program::MoreProgram() as $data)
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                        <div class="card" style="border-radius: 30px;">
+                            <a href="{{url('program-bank-bjb', $data->news_slug)}} ">
+                                <div class="card-body">
+                                    <img src="{{URL::to('images/news/icon', $data->thumb)}}" class="card-img-top"
+                                         alt="#">
+                                </div>
+                                <div class="card-footer" style="min-height: 100px; background-color: rgb(214 238 251);">
+                                    <div class="row container">
+                                        <h6 class="font-weight-bold" style="font-size: 1.5vh;">{{$data->title}}</h6>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                @endforeach
-            </div>
+            @endforeach
         </div>
+    </div>
     </div>
 
 @endsection
