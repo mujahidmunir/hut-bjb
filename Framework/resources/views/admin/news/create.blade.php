@@ -37,7 +37,7 @@
                             </div>
                             <div class="form-group">
                                 <label class="form-label" for="basic-addon-name">Lokasi</label>
-                                <input type="text" name="duration" id="location" class="form-control" />
+                                <input type="text" name="location" id="location" class="form-control" />
                             </div>
 
                             <div class="form-group">

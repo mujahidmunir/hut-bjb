@@ -120,7 +120,7 @@ class JsonController extends Controller
             if($request->input('duration')){
                 $durasi = $request->input('duration');
             } else {
-                $durasi = '';
+                $durasi = null;
             }
             //detail information
             DetailInformation::create([
@@ -128,7 +128,8 @@ class JsonController extends Controller
                 'description' => $request->input('description'),
                 'slug' => Str::slug($slug),
                 'video_url' => $video_url,
-                'duration_promo' => $durasi
+                'duration_promo' => $durasi,
+                'location' => $request->input('location')
             ]);
 
             //update media Information
