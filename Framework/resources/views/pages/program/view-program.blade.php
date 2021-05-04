@@ -75,6 +75,7 @@
                         '                    <div class="card-footer" style="min-height: 100px; background-color: rgb(214 238 251);">\n' +
                         '                        <div class="row container">\n' +
                         '                            <h6 class="font-weight-bold" style="font-size: 1.5vh;">' + v.title + '</h6>\n' +
+                        '                            <h6 class="font-weight-bold" style="font-size: 1 vh;">' + v.title + '</h6>\n' +
                         '                        </div>\n' +
                         '                       </a>'+
                         '                    </div>\n' +
@@ -127,11 +128,12 @@
                             '                <div class="card" style="border-radius: 30px;"> ' +
                             '                  <a href="{{url('program-bank-bjb')}}/' + v.news_slug + ' "> \n' +
                             '                    <div class="card-body">\n' +
-                            '                        <img src="{{URL::to('images/news/thumb')}}/' + v.thumb + '" class="card-img-top" alt="#">\n' +
+                            '                        <img src="{{URL::to('images/news/icon')}}/' + v.thumb + '" class="card-img-top" alt="#">\n' +
                             '                    </div>\n' +
                             '                    <div class="card-footer" style="min-height: 100px; background-color: rgb(214 238 251);">\n' +
                             '                        <div class="row container">\n' +
                             '                            <h6 class="font-weight-bold" style="font-size: 1.5vh;">' + v.title + '</h6>\n' +
+                            '                            <h6 class="font-weight-bold" style="font-size: 1 vh;">' + v.title + '</h6>\n' +
                             '                        </div>\n' +
                             '                       </a>'+
                             '                    </div>\n' +
@@ -153,11 +155,12 @@
                         '                <div class="card" style="border-radius: 30px;"> ' +
                         '                  <a href="{{url('program-bank-bjb')}}/' + v.news_slug + ' "> \n' +
                         '                    <div class="card-body">\n' +
-                        '                        <img src="{{URL::to('images/news/thumb')}}/' + v.thumb + '" class="card-img-top" alt="#">\n' +
+                        '                        <img src="{{URL::to('images/news/icon')}}/' + v.thumb + '" class="card-img-top" alt="#">\n' +
                         '                    </div>\n' +
                         '                    <div class="card-footer" style="min-height: 100px; background-color: rgb(214 238 251);">\n' +
                         '                        <div class="row container">\n' +
                         '                            <h6 class="font-weight-bold" style="font-size: 1.5vh;">' + v.title + '</h6>\n' +
+                        '                            <h6 class="font-weight-bold" style="font-size: 1 vh;">' + v.title + '</h6>\n' +
                         '                        </div>\n' +
                         '                       </a>'+
                         '                    </div>\n' +
