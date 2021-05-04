@@ -42,7 +42,7 @@
 
                             <div class="form-group">
                                 <label for="select-country1">Thumb Content</label>
-                                <textarea  class="description" name="thumb_desc"></textarea>
+                                <textarea  class="description form-control" name="thumb_desc"></textarea>
                             </div>
 
                             <div class="form-group">
