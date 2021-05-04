@@ -25843,7 +25843,7 @@ table.dataTable, table.dataTable td, table.dataTable th {
     vertical-align: baseline;
 
     background-image: linear-gradient(to right, #d0ecfa, #fff);
-    border-radius: 3vh 0 3vh 0;
+    border-radius: 1vh 0 1vh 0;
 }
 
 .text-product {

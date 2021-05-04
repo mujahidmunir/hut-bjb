@@ -4,13 +4,7 @@
 @endsection
 @section('content')
 
-    <div class="col-12 container mt-3 mb-3">
-        <div class="title-product">
-            <div class="text-product text-center">
-                Promo bank bjb
-            </div>
-        </div>
-    </div>
+
     <div class="row">
         <div class="col-12 container mt-3 mb-3">
             <form method="post" id="search">
@@ -31,12 +25,12 @@
                         <div class="row">
                             <div class="col-6">
                                 <div class="form-group">
-                                    <input type="submit" value="Filter" class="btn btn-primary btn-block">
+                                    <input type="submit" value="Filter" class="btn btn-success btn-block">
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="form-group">
-                                    <button type="button" id="reset" value="Filter" class="btn btn-danger btn-block">
+                                    <button type="button" id="reset" value="Filter" class="btn btn-warning btn-block">
                                         Reset
                                     </button>
                                 </div>

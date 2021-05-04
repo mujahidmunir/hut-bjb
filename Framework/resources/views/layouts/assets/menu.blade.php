@@ -15,18 +15,17 @@
                     </div>
                     <ul id="iq-sidebar-toggle" class="iq-menu d-flex mn-center">
                         <li class="{{'/' == request()->path() ? 'active-menu' : ''}}">
-                            <a href="{{url('/')}}" aria-expanded="false" class="font-size-20 align-items-center "><i
-                                    class="fa fa-home"></i>Home</a>
+                            <a href="{{url('/')}}" aria-expanded="false" class="font-size-20 align-items-center ">Home</a>
                         </li>
                         <li class="{{'news' == request()->path() ? 'active-menu' : ''}}">
                             <a href="{{url('news')}}" aria-expanded="false" class="font-size-20 ">
-                                <i class="fa fa-newspaper-o iq-arrow-left"></i><span>Informasi</span>
+                                <span>Informasi</span>
                             </a>
                         </li>
 
                         <li class="{{'promo-bank-bjb' == request()->path() ? 'active-menu' : ''}}">
                             <a href="{{url('promo-bank-bjb')}}" aria-expanded="false" class="font-size-20 ">
-                                <i class="fa fa-newspaper-o iq-arrow-left"></i><span>Promo</span>
+                                <span>Promo</span>
                             </a>
                         </li>
 
@@ -34,7 +33,7 @@
 
                         <li class="{{'program-bank-bjb' == request()->path() ? 'active-menu' : ''}}">
                             <a href="{{url('program-bank-bjb')}}" aria-expanded="false" class="font-size-20 ">
-                                <i class="fa fa-newspaper-o iq-arrow-left"></i><span>Program</span>
+                                <span>Program</span>
                             </a>
                         </li>
 
@@ -43,7 +42,7 @@
                         @guest()
                             <li class="">
                                 <a href="{{url('login')}}" aria-expanded="false" class="font-size-20 btn btn-sm btn-warning">
-                                    <i class="fa fa-sign-in iq-arrow-left"></i><span>Registrasi</span>
+                                    <i class="fa fa-sign-in iq-arrow-left"></i><span>Masuk Sebagai ?</span>
                                 </a>
                             </li>
 
