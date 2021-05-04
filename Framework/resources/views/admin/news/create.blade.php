@@ -33,13 +33,24 @@
                             </div>
                             <div class="form-group">
                                 <label class="form-label" for="basic-addon-name">Masa Berlaku</label>
-                                <input type="text" name="duration" id="duration" class="form-control" required/>
+                                <input type="text" name="duration" id="duration" class="form-control"/>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="basic-addon-name">Lokasi</label>
+                                <input type="text" name="duration" id="location" class="form-control" />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="select-country1">Thumb Content</label>
+                                <textarea id="redactor" class="description" name="thumb_desc"></textarea>
                             </div>
 
                             <div class="form-group">
                                 <label for="select-country1">Content</label>
                                 <textarea id="redactor" class="description" name="description"></textarea>
                             </div>
+
+
 
                             <div class="form-group">
                                 <label>Image</label>

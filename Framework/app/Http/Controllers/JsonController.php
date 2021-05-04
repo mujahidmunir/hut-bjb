@@ -60,7 +60,7 @@ class JsonController extends Controller
 
     public function CreateNews(Request $request){
         $title = $request->input('title');
-        $thumb_desc = Str::limit($request->input('description'), 100);
+        $thumb_desc = Str::limit($request->input('thumb_desc'), 100);
         $slug = Str::limit($title, 30);
         $cek = Information::whereNewsSlug(Str::slug($title))->first();
         if($cek){
