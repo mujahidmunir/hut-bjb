@@ -75,7 +75,6 @@
                         '                    <div class="card-footer" style="min-height: 100px; background-color: rgb(214 238 251);">\n' +
                         '                        <div class="row container">\n' +
                         '                            <h6 class="font-weight-bold" style="font-size: 1.5vh;">' + v.title + '</h6>\n' +
-                        '                            <p class="mt-3" style="font-size: 1 vh;">' + v.title + '</p>\n' +
                         '                        </div>\n' +
                         '                       </a>'+
                         '                    </div>\n' +
@@ -133,7 +132,6 @@
                             '                    <div class="card-footer" style="min-height: 100px; background-color: rgb(214 238 251);">\n' +
                             '                        <div class="row container">\n' +
                             '                            <h6 class="font-weight-bold" style="font-size: 1.5vh;">' + v.title + '</h6>\n' +
-                            '                            <p class="mt-3" style="font-size: 1 vh;">' + v.title + '</p>\n' +
                             '                        </div>\n' +
                             '                       </a>'+
                             '                    </div>\n' +
@@ -160,7 +158,6 @@
                         '                    <div class="card-footer" style="min-height: 100px; background-color: rgb(214 238 251);">\n' +
                         '                        <div class="row container">\n' +
                         '                            <h6 class="font-weight-bold" style="font-size: 1.5vh;">' + v.title + '</h6>\n' +
-                        '                            <p class="mt-3" style="font-size: 1 vh;">' + v.title + '</p>\n' +
                         '                        </div>\n' +
                         '                       </a>'+
                         '                    </div>\n' +
