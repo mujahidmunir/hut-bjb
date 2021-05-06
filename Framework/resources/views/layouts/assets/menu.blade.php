@@ -3,12 +3,7 @@
         <div class="white-bg-menu">
             <div class="iq-menu-horizontal">
                 <nav class="iq-sidebar-menu text-center d-flex flex-row-reverse">
-
                     <div class="iq-sidebar-logo d-flex align-items-center justify-content-between">
-                        <a href="{{url('/')}}" class="header-logo">
-                            <img src="{{URL::to('images/logo/logo.png')}}" class="img-fluid rounded-normal"
-                                 alt="logo">
-                        </a>
                         <div class="iq-menu-bt-sidebar">
                             <i class="fa fa-close wrapper-menu"></i>
                         </div>

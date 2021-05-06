@@ -20,6 +20,9 @@ use App\Http\Controllers\AccessController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/login' , function (){
+    return redirect('/');
+});
 Route::post('/access-code' , [AccessController::class, 'login']);
 Route::post('/auth-register' , [AccessController::class, 'register']);
 
