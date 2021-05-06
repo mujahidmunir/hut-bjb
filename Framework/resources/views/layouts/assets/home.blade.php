@@ -38,16 +38,14 @@
                                     <div class="blog-description mt-3">
                                         <div class="font-weight-bold mb-3"
                                              style="font-size: 1.2vh;">{{$data->title}}</div>
-                                        <div class="mb-3"
-                                             style="font-size: 1.1vh; text-align: justify;">{{Str::limit($data->thumb_desc, 40)}}</div>
 
-{{--                                        @if($agent->isPhone())--}}
 
-{{--                                        @else--}}
-{{--                                            <div class="blog-meta d-flex align-items-center justify-content-between mb-2 d-none d-lg-flex d-xl-flex d-sm-flex">--}}
-{{--                                                <div class="author">{{$data->thumb_desc}}</div>--}}
-{{--                                            </div>--}}
-{{--                                        @endif--}}
+                                        @if($agent->isPhone())
+
+                                        @else
+                                            <div class="mb-3"
+                                                 style="font-size: 1.1vh; text-align: justify;">{{Str::limit($data->thumb_desc, 40)}}</div>
+                                        @endif
 
                                     </div>
                                 </div>

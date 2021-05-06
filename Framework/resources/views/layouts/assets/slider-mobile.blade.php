@@ -2,22 +2,12 @@
 
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="{{URL::to('images/slider/sliderm1.png')}}" class="d-block w-100" alt="#">
+            <img src="{{URL::to('images/slider/slider-m-1.png')}}" class="d-block w-100" alt="#">
         </div>
 
         <div class="carousel-item">
-            <img src="{{URL::to('images/slider/sliderm2.png')}}" class="d-block w-100" alt="#">
+            <img src="{{URL::to('images/slider/slider-m-2.png')}}" class="d-block w-100" alt="#">
         </div>
-
-        <div class="carousel-item">
-            <img src="{{URL::to('images/slider/sliderm3.png')}}" class="d-block w-100" alt="#">
-        </div>
-
-        <div class="carousel-item">
-            <img src="{{URL::to('images/slider/sliderm4.png')}}" class="d-block w-100" alt="#">
-        </div>
-
-
 
     </div>
 

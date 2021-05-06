@@ -640,7 +640,6 @@ html {
 
 body {
     color: #777;
-    background-image: url(../../images/background-web-02111123123.png);
     background-size: 100%;
     font-size: 1.4rem;
     font-weight: 400;
@@ -650,6 +649,21 @@ body {
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden
 }
+
+@media (max-width: 767px) {
+    body {
+        background-image: url(../../images/background-mobile.png);
+    }
+}
+@media (min-width: 768px) {
+    body {
+        background-image: url(../../images/background.png);
+
+    }
+}
+
+
+
 
 body:not(.loaded) > *:not(.loading-overlay) {
     visibility: hidden
