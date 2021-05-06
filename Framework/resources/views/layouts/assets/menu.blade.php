@@ -3,19 +3,21 @@
         <div class="white-bg-menu">
             <div class="iq-menu-horizontal">
                 <nav class="iq-sidebar-menu text-center ">
-                    <div class="container">
+
                         <div class="iq-sidebar-logo">
                             <div class="row">
                                 <div class="col-9">
                                     <a href="{{url('/')}}" class="header-logo">
-                                        <img src="{{URL::to('images/logo/logo.png')}}" class="img-fluid rounded-normal"
+                                        <img src="{{URL::to('images/logo/logo.png')}}" style="width: 100%; height: auto; padding: 5px;" class="img-fluid rounded-normal"
                                              alt="logo">
                                     </a>
 
                                 </div>
                                 <div class="col-3">
                                     <div class="iq-menu-bt-sidebar justify-content-center justify-content-between">
-                                        <i class="fa fa-close wrapper-menu" style="font-size: 20px;"></i>
+
+                                        <i class="fa fa-close wrapper-menu" style="font-size: 28px;"></i>
+
                                     </div>
                                 </div>
                             </div>
@@ -75,7 +77,6 @@
                             {{--                            </li>--}}
                             {{--                        @endguest--}}
                         </ul>
-                    </div>
 
                 </nav>
             </div>
