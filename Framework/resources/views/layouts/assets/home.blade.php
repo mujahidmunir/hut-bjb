@@ -39,7 +39,7 @@
                                         <div class="font-weight-bold mb-3"
                                              style="font-size: 1.2vh;">{{$data->title}}</div>
                                         <div class="mb-3"
-                                             style="font-size: 1.1vh; text-align: justify;">{{$data->thumb_desc}}</div>
+                                             style="font-size: 1.1vh; text-align: justify;">{{Str::limit($data->thumb_desc, 40)}}</div>
 
 {{--                                        @if($agent->isPhone())--}}
 
