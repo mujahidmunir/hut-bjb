@@ -21,43 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5bac1f41-0325-4726-99e6-55b76573cbd3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Framework/app/Helpers/Program.php" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/app/Helpers/Program.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Framework/app/Http/Controllers/AccessController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/app/Http/Controllers/AccessController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Framework/app/Http/Controllers/ProgramController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/app/Http/Controllers/ProgramController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Framework/resources/views/admin/user/view-user.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/resources/views/admin/user/view-user.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Framework/resources/views/layouts/assets/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/resources/views/layouts/assets/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo/key.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/logo/key.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo/phone1.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/logo/phone1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/news/icon/1620028515.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/icon/1620028515.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/news/icon/1620028563.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/icon/1620028563.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/news/icon/1620028599.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/icon/1620028599.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/news/icon/1620029359.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/icon/1620029359.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/news/icon/1620029443.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/icon/1620029443.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/news/icon/1620029990.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/icon/1620029990.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/news/icon/1620031652.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/icon/1620031652.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/news/origin/1620028515.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/origin/1620028515.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/news/origin/1620028563.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/origin/1620028563.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/news/origin/1620028599.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/origin/1620028599.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/news/origin/1620029359.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/origin/1620029359.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/news/origin/1620029443.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/origin/1620029443.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/news/origin/1620029990.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/origin/1620029990.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/news/origin/1620031652.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/origin/1620031652.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/news/origin/1620066339.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/origin/1620066339.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/news/origin/1620066371.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/origin/1620066371.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/news/origin/1620066442.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/origin/1620066442.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/news/origin/1620066733.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/origin/1620066733.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/news/thumb/1620028515.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/thumb/1620028515.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/news/thumb/1620028563.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/thumb/1620028563.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/news/thumb/1620028599.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/thumb/1620028599.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/news/thumb/1620029359.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/thumb/1620029359.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/news/thumb/1620029443.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/thumb/1620029443.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/news/thumb/1620029990.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/thumb/1620029990.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/news/thumb/1620031652.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/thumb/1620031652.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/news/thumb/1620066339.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/thumb/1620066339.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/news/thumb/1620066371.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/thumb/1620066371.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/news/thumb/1620066442.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/thumb/1620066442.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/news/thumb/1620066733.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/thumb/1620066733.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,7 +230,7 @@
       <workItem from="1620064114872" duration="6221000" />
       <workItem from="1620116077400" duration="6178000" />
       <workItem from="1620227079352" duration="1841000" />
-      <workItem from="1620281326757" duration="144000" />
+      <workItem from="1620281326757" duration="739000" />
     </task>
     <servers />
   </component>

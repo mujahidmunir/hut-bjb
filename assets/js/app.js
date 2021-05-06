@@ -202,7 +202,7 @@ Index Of Script
         Page Loader
         -----------------------------------------------------------------------*/
         jQuery("#load").fadeOut();
-        jQuery("#loading").delay(1000).fadeOut("");
+        jQuery("#loading").delay(500).fadeOut("");
 
 
         /*---------------------------------------------------------------------
