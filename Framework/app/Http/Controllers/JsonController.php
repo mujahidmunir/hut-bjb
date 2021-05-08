@@ -113,7 +113,7 @@ class JsonController extends Controller
                 'thumb' => $file_name,
                 'cat_id' => $request->input('cat_id'),
                 'parent_id' => $parentId->parent_id,
-                'news_slug' => Str::slug($slug),
+                'news_slug' => Str::slug($title),
                 'media' => $media,
                 'icon' => $NameIcon
             ]);
@@ -126,7 +126,7 @@ class JsonController extends Controller
             DetailInformation::create([
                 'id_info' => $create->id,
                 'description' => $request->input('description'),
-                'slug' => Str::slug($slug),
+                'slug' => Str::slug($title),
                 'video_url' => $video_url,
                 'duration_promo' => $durasi,
                 'location' => $request->input('location')
