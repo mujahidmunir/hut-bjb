@@ -191,9 +191,14 @@
                         allowfullscreen>
                 </iframe>
             </div>
+                <a href="https://www.youtube.com/watch?v=WYzi6409INo" target="_blank" class="btn btn-warning btn-block" style="font-size: 2vh">
+                    <i class="fa fa-youtube-square" style="color: darkred"></i>
+                    Play On Youtube
+                </a>
         </div>
         <div class="card-footer bg-white">
             <div class="justify-content-center" style="text-align: justify; font-size: 2vh;">
+
                 <h4 class="card-title">The Banker Show With Ronal Tike Eps.01</h4>
                 Mengupas sisi lain seorang bankers bersama host @rocknal & @tikeprie dengan narasumber Direktur Utama bank bjb Bapak @yuddyrenaldi & Financial Planner @aidilakbarmadjid
             </div>
