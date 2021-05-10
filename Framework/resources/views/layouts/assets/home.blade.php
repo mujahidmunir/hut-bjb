@@ -29,8 +29,9 @@
                                 <div class="col-6">
                                     <div class="image-block position-relative">
                                         <a href="{{url('program-bank-bjb/'.$data->news_slug)}}">
-                                        <img src="{{URL::to('images/news/icon/'.$data->thumb)}}" class="img-fluid" style="border-radius: 10px"
-                                             alt="blog-img">
+                                            <img src="{{URL::to('images/news/icon/'.$data->thumb)}}" class="img-fluid"
+                                                 style="border-radius: 10px"
+                                                 alt="blog-img">
                                         </a>
                                     </div>
                                 </div>
@@ -52,7 +53,8 @@
                             </div>
                         </div>
                         <div class="card-footer">
-                            <a href="{{url('program-bank-bjb', $data->news_slug)}}" style="font-size: 1.2vh" class="btn btn-primary btn-block">Lihat</a>
+                            <a href="{{url('program-bank-bjb', $data->news_slug)}}" style="font-size: 1.2vh"
+                               class="btn btn-primary btn-block">Lihat</a>
                         </div>
                     </div>
                 </div>
@@ -81,13 +83,13 @@
     </div>
     <div class="row">
         @foreach(\App\Helpers\Promo::Promo() as $data)
-        <div class="col-sm-3 col-md-2 col-lg-2 col-xl-2 col-4">
-            <div class="card" style="border-radius: 60px;">
-                <a href="{{url('promo-bank-bjb', $data->news_slug)}}">
-                <img src="{{URL::to('images/news/thumb', $data->thumb)}}" class="card-img-top" alt="#">
-                </a>
+            <div class="col-sm-3 col-md-2 col-lg-2 col-xl-2 col-4">
+                <div class="card" style="border-radius: 60px;">
+                    <a href="{{url('promo-bank-bjb', $data->news_slug)}}">
+                        <img src="{{URL::to('images/news/thumb', $data->thumb)}}" class="card-img-top" alt="#">
+                    </a>
+                </div>
             </div>
-        </div>
         @endforeach
     </div>
 
@@ -174,6 +176,45 @@
                     </div>
                 @endif
             @endforeach
+        </div>
+    </div>
+
+    <div class="card col-12">
+        <div class="card-header d-flex justify-content-between">
+            <div class="header-title">
+                <h4 class="card-title">The Banker Show With Ronal Tike Eps.01</h4>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/WYzi6409INo"
+                        allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+        <div class="card-footer bg-white">
+            <div class="justify-content-center" style="text-align: justify; font-size: 2vh;">
+                <h4 class="card-title">The Banker Show With Ronal Tike Eps.01</h4>
+                Mengupas sisi lain seorang bankers bersama host @rocknal & @tikeprie dengan narasumber Direktur Utama bank bjb Bapak @yuddyrenaldi & Financial Planner @aidilakbarmadjid
+            </div>
+            <div class="mt-5" style="font-size: 1.5vh;">
+                <ol>
+                    <li>Selasa, 11 Mei 2021</li>
+                    <li>Mulai jam 19.00 WIB</li>
+                    <li>Live di YouTube Channel bank bjb</li>
+                </ol>
+            </div>
+            <div class="" style="font-size: 1.5vh;">
+                <ol>
+                    <li>#bankbjb</li>
+                    <li>#60Versarybankbjb</li>
+                    <li>#tandamataku</li>
+                    <li>#tandamatauntuknegeri</li>
+                    <li>#salambjb</li>
+                </ol>
+
+            </div>
+
         </div>
     </div>
 
