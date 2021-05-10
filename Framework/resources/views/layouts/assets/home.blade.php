@@ -204,7 +204,7 @@
                     <li>Live di YouTube Channel bank bjb</li>
                 </ol>
             </div>
-            <div class="" style="font-size: 1.5vh;">
+            <div class="" style="font-size: 1.5vh; color: #0a6aa1;">
                 <ol>
                     <li>#bankbjb</li>
                     <li>#60Versarybankbjb</li>
