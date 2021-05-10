@@ -185,16 +185,19 @@
                 <h4 class="card-title">The Banker Show With Ronal Tike Eps.01</h4>
             </div>
         </div>
+        <a href="https://www.youtube.com/watch?v=WYzi6409INo">
         <div class="card-body">
+
             <div class="embed-responsive embed-responsive-16by9">
-                <a href="https://www.youtube.com/watch?v=WYzi6409INo">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/WYzi6409INo"
+
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BxV3l090MTQ"
                             allowfullscreen>
                     </iframe>
-                </a>
 
             </div>
+
         </div>
+        </a>
         <div class="card-footer bg-white">
             <div class="justify-content-center" style="text-align: justify; font-size: 2vh;">
                 <h4 class="card-title">The Banker Show With Ronal Tike Eps.01</h4>
