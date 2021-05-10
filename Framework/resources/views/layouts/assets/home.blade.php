@@ -187,9 +187,12 @@
         </div>
         <div class="card-body">
             <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/WYzi6409INo"
-                        allowfullscreen>
-                </iframe>
+                <a href="https://www.youtube.com/watch?v=WYzi6409INo">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/WYzi6409INo"
+                            allowfullscreen>
+                    </iframe>
+                </a>
+
             </div>
         </div>
         <div class="card-footer bg-white">
