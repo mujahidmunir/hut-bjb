@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bac1f41-0325-4726-99e6-55b76573cbd3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Framework/app/Helpers/News.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Framework/resources/views/layouts/assets/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/resources/views/layouts/assets/home.blade.php" afterDir="false" />
     </list>
@@ -187,6 +188,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/images/banner" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -235,7 +237,8 @@
       <workItem from="1620281326757" duration="6751000" />
       <workItem from="1620359904300" duration="1462000" />
       <workItem from="1620463577145" duration="3158000" />
-      <workItem from="1620677730441" duration="936000" />
+      <workItem from="1620677730441" duration="1333000" />
+      <workItem from="1621063512255" duration="1095000" />
     </task>
     <servers />
   </component>
@@ -272,12 +275,17 @@
       <screen x="0" y="23" width="1920" height="1124" />
     </state>
     <state x="629" y="237" key="#phpunit.xml/0.23.1920.1124@0.23.1920.1124" timestamp="1619811708744" />
-    <state x="782" y="513" key="NewPhpFileDialog" timestamp="1620069258486">
-      <screen x="0" y="23" width="1920" height="1124" />
+    <state x="782" y="512" key="NewPhpFileDialog" timestamp="1621064204829">
+      <screen x="0" y="23" width="1920" height="1122" />
     </state>
     <state x="782" y="524" key="NewPhpFileDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1619893885507" />
     <state x="782" y="503" key="NewPhpFileDialog/0.23.1920.1100@0.23.1920.1100" timestamp="1619628692345" />
+    <state x="782" y="512" key="NewPhpFileDialog/0.23.1920.1122@0.23.1920.1122" timestamp="1621064204829" />
     <state x="782" y="513" key="NewPhpFileDialog/0.23.1920.1124@0.23.1920.1124" timestamp="1620069258486" />
+    <state x="469" y="223" key="SettingsEditor" timestamp="1621064187522">
+      <screen x="0" y="23" width="1920" height="1122" />
+    </state>
+    <state x="469" y="223" key="SettingsEditor/0.23.1920.1122@0.23.1920.1122" timestamp="1621064187522" />
     <state x="808" y="480" key="WebDeployment.AddServerDialog.v.1" timestamp="1619534915389">
       <screen x="0" y="23" width="1920" height="1100" />
     </state>
