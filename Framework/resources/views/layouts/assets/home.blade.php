@@ -232,7 +232,7 @@
         <div class="card col-lg-6 col-xl-6 col-md-6">
             <div class="card-header d-flex justify-content-between">
                 <div class="header-title">
-                    <h3 class="card-title">The Banker Show With Trio Urban Eps 2 </h3>
+                    <h3 class="card-title">The Banker Show With Trio Urban Eps.02 </h3>
                 </div>
             </div>
             <div class="card-body">
@@ -249,7 +249,7 @@
             <div class="card-footer bg-white">
                 <div class="justify-content-center" style="text-align: justify; font-size: 2vh;">
 
-                    <h4 class="card-title">The Banker Show With Ronal Tike Eps.02</h4>
+                    <h4 class="card-title">The Banker Show With Trio Urban Eps.02</h4>
                     <p class="mt-3 mb-3">Di episode kali ini pembahasannya lebih seru lagi lho, bincang-bincang seputar "Kemudahan & Kesejahteraan" pastinya penasaran dong? </p>
                     <p>Bersama salah satu pegawai bank bjb dan Trio Urban @ronny.urban @urbanwanda @elmi.urban </p>
                     <p class="">Yuk, saksikan The Bankers Show Eps 2 Live on YouTube Channel bank bjb</p>
