@@ -28,7 +28,7 @@ class PageController extends Controller
 
         $data ['agent'] = new Agent();
         $data ['news'] = Information::whereParentId(1)
-            ->orderBy(DB::raw('RAND()'))
+            ->orderBy('information.id' , 'DESC')
             ->limit(8)
             ->get();
         return view ('index', $data);
