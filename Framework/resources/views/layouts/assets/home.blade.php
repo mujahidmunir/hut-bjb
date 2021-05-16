@@ -199,7 +199,7 @@
         <div class="card-footer bg-white">
             <div class="justify-content-center" style="text-align: justify; font-size: 2vh;">
 
-                <h4 class="card-title">The Banker Show With Ronal Tike Eps.01</h4>
+                <h4 class="card-title">The Banker Show With Ronal Tike Eps.02</h4>
                 <p class="mt-3 mb-3">Di episode kali ini pembahasannya lebih seru lagi lho, bincang-bincang seputar "Kemudahan & Kesejahteraan" pastinya penasaran dong? </p>
                 <p>Bersama salah satu pegawai bank bjb dan Trio Urban @ronny.urban @urbanwanda @elmi.urban </p>
                 <p class="">Yuk, saksikan The Bankers Show Eps 2 Live on YouTube Channel bank bjb</p>
