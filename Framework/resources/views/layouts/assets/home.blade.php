@@ -436,7 +436,7 @@
                         <div class="card-footer">
 
                             <div class="float-right">
-                                <button class="btn btn-success btn-lg" style="font-size: 2vh">Show Qr Code</button>
+                                <button class="btn btn-success btn-lg" style="font-size: 2vh" data-toggle="modal" data-target="#exampleModalCenter">Show Qr Code</button>
                                 <a href="https://online.fliphtml5.com/sgafu/jqor/" style="font-size: 2vh" target="_blank" class="btn btn-primary btn-lg">Baca Selengkapnya</a>
                             </div>
                         </div>
@@ -459,3 +459,24 @@
 
     }
 </script>
+
+
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
