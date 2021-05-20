@@ -430,7 +430,7 @@
                         </div>
                         <p style="font-size: 0.5vw">{!! $data->description!!}</p>
                        <div class="float-right">
-                           <a href="btn btn-primary">asdf</a>
+                           <a href="" class="btn btn-primary">asdf</a>
                        </div>
 
                     </div>
