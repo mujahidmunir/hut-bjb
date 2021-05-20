@@ -429,7 +429,9 @@
                             <div class="author mr-3">By bank bjb</div>
                         </div>
                         <p style="font-size: 0.5vw">{!! $data->description!!}</p>
-                        <a href="{{url('news', $data->news_slug)}}" tabindex="-1">Read More <i class="ri-arrow-right-s-line"></i></a>
+                       <div class="float-right">
+                           <a href="btn btn-primary">asdf</a>
+                       </div>
 
                     </div>
                 </div>
