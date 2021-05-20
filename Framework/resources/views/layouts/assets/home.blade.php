@@ -436,8 +436,8 @@
                         <div class="card-footer">
 
                             <div class="float-right">
-                                <button class="btn btn-success btn-lg" style="height: 50px; ">Show Qr Code</button>
-                                <a href="https://online.fliphtml5.com/sgafu/jqor/" style="height: 50px;" target="_blank" class="btn btn-primary btn-lg">Baca Selengkapnya</a>
+                                <button class="btn btn-success btn-lg" style="height: 50px; width: 100px;">Show Qr Code</button>
+                                <a href="https://online.fliphtml5.com/sgafu/jqor/" style="height: 50px; width: 100px;" target="_blank" class="btn btn-primary btn-lg">Baca Selengkapnya</a>
                             </div>
                         </div>
                     </div>
