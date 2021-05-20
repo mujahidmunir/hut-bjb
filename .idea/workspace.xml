@@ -21,7 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5bac1f41-0325-4726-99e6-55b76573cbd3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/backend.min0ff5.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/backend.min0ff5.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/resources/views/layouts/assets/slider-mobile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/resources/views/layouts/assets/slider-mobile.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/resources/views/layouts/assets/slider.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/resources/views/layouts/assets/slider.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,7 +239,7 @@
       <workItem from="1620463577145" duration="3158000" />
       <workItem from="1620677730441" duration="1333000" />
       <workItem from="1621063512255" duration="1702000" />
-      <workItem from="1621148011865" duration="1300000" />
+      <workItem from="1621148011865" duration="2866000" />
     </task>
     <servers />
   </component>
@@ -298,12 +299,12 @@
       <screen x="0" y="23" width="1920" height="1100" />
     </state>
     <state x="660" y="325" width="600" height="524" key="find.popup/0.23.1920.1100@0.23.1920.1100" timestamp="1619613115351" />
-    <state x="625" y="274" width="670" height="690" key="search.everywhere.popup" timestamp="1621250673414">
+    <state x="625" y="274" width="670" height="690" key="search.everywhere.popup" timestamp="1621499994809">
       <screen x="0" y="23" width="1920" height="1122" />
     </state>
     <state x="625" y="268" width="670" height="738" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1619895344743" />
     <state x="625" y="269" width="670" height="676" key="search.everywhere.popup/0.23.1920.1100@0.23.1920.1100" timestamp="1619629516149" />
-    <state x="625" y="274" width="670" height="690" key="search.everywhere.popup/0.23.1920.1122@0.23.1920.1122" timestamp="1621250673414" />
+    <state x="625" y="274" width="670" height="690" key="search.everywhere.popup/0.23.1920.1122@0.23.1920.1122" timestamp="1621499994809" />
     <state x="625" y="274" width="670" height="691" key="search.everywhere.popup/0.23.1920.1124@0.23.1920.1124" timestamp="1620360061362" />
   </component>
   <component name="XDebuggerManager">

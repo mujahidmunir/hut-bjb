@@ -2,11 +2,21 @@
 
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="{{URL::to('images/slider/slider-web-1.png')}}" class="d-block w-100" alt="#">
+            <img src="{{URL::to('images/slider/slider-new-1.png')}}" class="d-block w-100" alt="#">
         </div>
         <div class="carousel-item ">
-            <img src="{{URL::to('images/slider/slider-web-2.png')}}" class="d-block w-100" alt="#">
+            <img src="{{URL::to('images/slider/slider-new-2.png')}}" class="d-block w-100" alt="#">
         </div>
+        <div class="carousel-item ">
+            <img src="{{URL::to('images/slider/slider-new-3.png')}}" class="d-block w-100" alt="#">
+        </div>
+        <div class="carousel-item ">
+            <img src="{{URL::to('images/slider/slider-new-4.png')}}" class="d-block w-100" alt="#">
+        </div>
+        <div class="carousel-item ">
+            <img src="{{URL::to('images/slider/slider-new-5.png')}}" class="d-block w-100" alt="#">
+        </div>
+
 
     </div>
 
