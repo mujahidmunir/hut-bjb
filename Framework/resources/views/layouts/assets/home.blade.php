@@ -436,8 +436,8 @@
                         <div class="card-footer">
 
                             <div class="float-right">
-                                <button class="btn btn-success btn-lg" style="font-size: 2vh" data-toggle="modal" data-target="#exampleModalCenter">Show Qr Code</button>
-                                <a href="https://online.fliphtml5.com/sgafu/jqor/" style="font-size: 2vh" target="_blank" class="btn btn-primary btn-lg">Baca Selengkapnya</a>
+                                <button class="btn btn-success btn-lg" style="font-size: 1.5vh" data-toggle="modal" data-target="#exampleModalCenter">Show Qr Code</button>
+                                <a href="https://online.fliphtml5.com/sgafu/jqor/" style="font-size: 1.5vh" target="_blank" class="btn btn-primary btn-lg">Baca Selengkapnya</a>
                             </div>
                         </div>
                     </div>
@@ -471,7 +471,7 @@
                 </button>
             </div>
             <div class="modal-body">
-                ...
+                <img src="{{URL::to('images/qrcode/qr-1621509876519.png')}}" class="img-thumbnail">
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
