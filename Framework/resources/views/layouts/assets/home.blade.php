@@ -422,11 +422,7 @@
                     <div class="card" style="height: 100%">
                         <div class="card-body">
                             <div class="blog-description">
-                                <div class="blog-meta-date mb-2">
-                                    <div class="date"><a href="#" tabindex="-1">{{date('d M Y', strtotime($data->created_at))}}</a>
-                                    </div>
-                                </div>
-                                <h5 class="mb-2">{{$data->title}}</h5>
+                                <h3 class="mb-2">{{$data->title}}</h3>
                                 <div class="blog-meta d-flex align-items-center pb-2 mb-2 border-bottom">
                                     <div class="author mr-3">By bank bjb</div>
                                 </div>
