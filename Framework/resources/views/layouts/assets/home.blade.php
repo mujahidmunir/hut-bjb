@@ -474,8 +474,8 @@
                 <img src="{{URL::to('images/qrcode/qr-1621509876519.png')}}" class="img-thumbnail">
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-secondary"  style="font-size: 1.5vh" data-dismiss="modal">Close</button>
+                <a href="{{URL::to('images/qrcode/qr-1621509876519.png')}}" download class="btn btn-primary" style="font-size: 1.5vh">Download Qr Code</a>
             </div>
         </div>
     </div>
