@@ -2,6 +2,9 @@
 
     <div class="carousel-inner">
         <div class="carousel-item active">
+            <img src="{{URL::to('images/slider/slider-web-1.png')}}" class="d-block w-100" alt="#">
+        </div>
+        <div class="carousel-item active">
             <img src="{{URL::to('images/slider/slider_new_1.png')}}" class="d-block w-100" alt="#">
         </div>
         <div class="carousel-item ">
