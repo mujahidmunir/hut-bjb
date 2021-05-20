@@ -428,7 +428,7 @@
                         <div class="blog-meta d-flex align-items-center pb-2 mb-2 border-bottom">
                             <div class="author mr-3">By bank bjb</div>
                         </div>
-                        <p style="font-size: 0.5vw">{!! $data->thumb_desc!!}</p>
+                        <p style="font-size: 0.5vw">{!! $data->description!!}</p>
                         <a href="{{url('news', $data->news_slug)}}" tabindex="-1">Read More <i class="ri-arrow-right-s-line"></i></a>
 
                     </div>
