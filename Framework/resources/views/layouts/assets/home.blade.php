@@ -180,104 +180,89 @@
     </div>
 
     <div class="row">
-        <div class="card col-lg-6 col-xl-6 col-md-6">
-            <div class="card-header d-flex justify-content-between">
-                <div class="header-title">
-                    <h3 class="card-title">The Banker Show With Ronal Tike Eps.01 </h3>
-                </div>
-            </div>
-            <div class="card-body">
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/WYzi6409INo"
-                            allowfullscreen>
-                    </iframe>
-                </div>
-                <a href="https://www.youtube.com/watch?v=WYzi6409INo" target="_blank" class="btn btn-warning btn-block" style="font-size: 2vh">
-                    <i class="fa fa-youtube-square" style="color: darkred"></i>
-                    Play On Youtube
-                </a>
-            </div>
-            <div class="card-footer bg-white">
-                <div class="justify-content-center" style="text-align: justify; font-size: 2vh;">
-
-                    <h4 class="card-title">The Banker Show With Ronal Tike Eps.01</h4>
-                    <p class="mt-3 mb-3">Bersama host @rocknal & @tikeprie pada episode pertama dari The Banker Show akan berbincang bagaimana kita bisa 'survive' dalam badai pandemi yang sudah lebih dari satu tahun menerpa berbagai sendi kehidupan di seluruh dunia.</p>
-                    <p>Bahkan dalam obrolan dengan narasumber Direktur Utama bank bjb Bapak @yuddyrenaldi & Financial Planner @aidilakbarmadjid akan diperbincangkan bagaimana cara dan kiat-kiat untuk selain bisa bertahan juga bisa keluar sebagai 'pemenang' dalam menghadapi pandemi.</p>
-                    <br>
-                    <div class="font-weight-bold" style="font-size: 1.5vh; ">
-                        <ol>
-                            <li>Selasa, 11 Mei 2021</li>
-                            <li>Mulai jam 19.00 WIB</li>
-                            <li>Live di YouTube Channel bank bjb</li>
-                        </ol>
+        @foreach(\App\Helpers\News::Webminar() as $data)
+            @if($data->status == 0)
+                <div class="card col-lg-6 col-xl-6 col-md-6">
+                    <div class="card-header d-flex justify-content-between">
+                        <div class="header-title">
+                            <h3 class="card-title">{{$data->title}}</h3>
+                        </div>
                     </div>
-
-                </div>
-
-
-                <br>
-                <div class="" style="font-size: 1.5vh; color: #0a6aa1;">
-                    <ol>
-                        <li>#bankbjb</li>
-                        <li>#60Versarybankbjb</li>
-                        <li>#tandamataku</li>
-                        <li>#tandamatauntuknegeri</li>
-                        <li>#salambjb</li>
-                    </ol>
-
-                </div>
-
-            </div>
-        </div>
-        <div class="card col-lg-6 col-xl-6 col-md-6">
-            <div class="card-header d-flex justify-content-between">
-                <div class="header-title">
-                    <h3 class="card-title">The Banker Show With Trio Urban Eps.02 </h3>
-                </div>
-            </div>
-            <div class="card-body">
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nb76Ab9Ljz8"
-                            allowfullscreen>
-                    </iframe>
-                </div>
-                <a href="https://www.youtube.com/watch?v=nb76Ab9Ljz8" target="_blank" class="btn btn-warning btn-block" style="font-size: 2vh">
-                    <i class="fa fa-youtube-square" style="color: darkred"></i>
-                    Play On Youtube
-                </a>
-            </div>
-            <div class="card-footer bg-white">
-                <div class="justify-content-center" style="text-align: justify; font-size: 2vh;">
-
-                    <h4 class="card-title">The Banker Show With Trio Urban Eps.02</h4>
-                    <p class="mt-3 mb-3">Di episode kali ini pembahasannya lebih seru lagi lho, bincang-bincang seputar "Kemudahan & Kesejahteraan" pastinya penasaran dong? </p>
-                    <p>Bersama salah satu pegawai bank bjb dan Trio Urban @ronny.urban @urbanwanda @elmi.urban </p>
-                    <p class="">Yuk, saksikan The Bankers Show Eps 2 Live on YouTube Channel bank bjb</p>
-                    <div class="font-weight-bold" style="font-size: 1.5vh; ">
-                        <ol>
-                            <li>Sabtu, 15 Mei 2021</li>
-                            <li>Jam 19.00 WIB</li>
-                            <li>Live di YouTube Channel bank bjb</li>
-                        </ol>
+                    <div class="card-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{$data->video_url}}"
+                                    allowfullscreen>
+                            </iframe>
+                        </div>
+                        <a href="https://www.youtube.com/watch?v={{$data->video_url}}" target="_blank" class="btn btn-warning btn-block" style="font-size: 2vh">
+                            <i class="fa fa-youtube-square" style="color: darkred"></i>
+                            Play On Youtube
+                        </a>
                     </div>
+                    <div class="card-footer bg-white">
+                        <div class="justify-content-center" style="text-align: justify; font-size: 2vh;">
 
+                            <h4 class="card-title">{{$data->title}}</h4>
+                            <p class="mt-3 mb-3">Bersama host @rocknal & @tikeprie pada episode pertama dari The Banker Show akan berbincang bagaimana kita bisa 'survive' dalam badai pandemi yang sudah lebih dari satu tahun menerpa berbagai sendi kehidupan di seluruh dunia.</p>
+                            {!! $data->description !!}
+
+                        </div>
+
+                    </div>
                 </div>
+            @else
+                <div class="card col-lg-6 col-xl-6 col-md-6">
+                    <div class="card-header d-flex justify-content-between">
+                        <div class="header-title">
+                            <h3 class="card-title">The Banker Show With Trio Urban Eps.02 </h3>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nb76Ab9Ljz8"
+                                    allowfullscreen>
+                            </iframe>
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=nb76Ab9Ljz8" target="_blank" class="btn btn-warning btn-block" style="font-size: 2vh">
+                            <i class="fa fa-youtube-square" style="color: darkred"></i>
+                            Play On Youtube
+                        </a>
+                    </div>
+                    <div class="card-footer bg-white">
+                        <div class="justify-content-center" style="text-align: justify; font-size: 2vh;">
+
+                            <h4 class="card-title">The Banker Show With Trio Urban Eps.02</h4>
+                            <p class="mt-3 mb-3">Di episode kali ini pembahasannya lebih seru lagi lho, bincang-bincang seputar "Kemudahan & Kesejahteraan" pastinya penasaran dong? </p>
+                            <p>Bersama salah satu pegawai bank bjb dan Trio Urban @ronny.urban @urbanwanda @elmi.urban </p>
+                            <p class="">Yuk, saksikan The Bankers Show Eps 2 Live on YouTube Channel bank bjb</p>
+                            <div class="font-weight-bold" style="font-size: 1.5vh; ">
+                                <ol>
+                                    <li>Sabtu, 15 Mei 2021</li>
+                                    <li>Jam 19.00 WIB</li>
+                                    <li>Live di YouTube Channel bank bjb</li>
+                                </ol>
+                            </div>
+
+                        </div>
 
 
-                <br>
-                <div class="" style="font-size: 1.5vh; color: #0a6aa1;">
-                    <ol>
-                        <li>#bankbjb</li>
-                        <li>#60Versarybankbjb</li>
-                        <li>#tandamataku</li>
-                        <li>#tandamatauntuknegeri</li>
-                        <li>#salambjb</li>
-                    </ol>
+                        <br>
+                        <div class="" style="font-size: 1.5vh; color: #0a6aa1;">
+                            <ol>
+                                <li>#bankbjb</li>
+                                <li>#60Versarybankbjb</li>
+                                <li>#tandamataku</li>
+                                <li>#tandamatauntuknegeri</li>
+                                <li>#salambjb</li>
+                            </ol>
 
+                        </div>
+
+                    </div>
                 </div>
+            @endif
+        @endforeach
 
-            </div>
-        </div>
 
     </div>
 </div>
