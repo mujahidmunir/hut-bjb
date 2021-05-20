@@ -432,7 +432,7 @@
                         <div class="card-footer">
 
                             <div class="float-right">
-                                <button class="btn btn-success btn-lg" style="font-size: 1.5vh" data-toggle="modal" data-target="#exampleModalCenter">Show Qr Code</button>
+                                <button class="btn btn-warning btn-lg" style="font-size: 1.5vh" data-toggle="modal" data-target="#exampleModalCenter">Show Qr Code</button>
                                 <a href="https://online.fliphtml5.com/sgafu/jqor/" style="font-size: 1.5vh" target="_blank" class="btn btn-primary btn-lg">Baca Selengkapnya</a>
                             </div>
                         </div>
