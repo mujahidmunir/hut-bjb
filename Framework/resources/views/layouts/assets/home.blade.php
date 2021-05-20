@@ -419,7 +419,7 @@
 
                 </div>
                 <div class="col-md-6 mt-3 mt-md-0 p-0">
-                    <div class="card">
+                    <div class="card" style="height: 100%">
                         <div class="card-body">
                             <div class="blog-description">
                                 <div class="blog-meta-date mb-2">
