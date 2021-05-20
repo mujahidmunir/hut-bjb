@@ -11,4 +11,11 @@ class News {
             ->orderBy('information.id' , 'DESC')
             ->get();
     }
+
+    public static  function EBook(){
+        return DetailInformation::join('information' , 'detail_information.id_info' , '=' , 'information.id')
+            ->whereParentId(96)
+            ->orderBy('information.id' , 'DESC')
+            ->get();
+    }
 }
