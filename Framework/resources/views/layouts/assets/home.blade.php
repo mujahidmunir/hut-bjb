@@ -419,22 +419,24 @@
 
                 </div>
                 <div class="col-md-6 mt-3 mt-md-0 p-0">
-                    <div class="card-body">
-                        <div class="blog-description">
-                            <div class="blog-meta-date mb-2">
-                                <div class="date"><a href="#" tabindex="-1">{{date('d M Y', strtotime($data->created_at))}}</a>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="blog-description">
+                                <div class="blog-meta-date mb-2">
+                                    <div class="date"><a href="#" tabindex="-1">{{date('d M Y', strtotime($data->created_at))}}</a>
+                                    </div>
                                 </div>
+                                <h5 class="mb-2">{{$data->title}}</h5>
+                                <div class="blog-meta d-flex align-items-center pb-2 mb-2 border-bottom">
+                                    <div class="author mr-3">By bank bjb</div>
+                                </div>
+                                <p style="font-size: 0.5vw">{!! $data->description!!}</p>
                             </div>
-                            <h5 class="mb-2">{{$data->title}}</h5>
-                            <div class="blog-meta d-flex align-items-center pb-2 mb-2 border-bottom">
-                                <div class="author mr-3">By bank bjb</div>
-                            </div>
-                            <p style="font-size: 0.5vw">{!! $data->description!!}</p>
                         </div>
-                    </div>
-                    <div class="card-footer">
-                        <div class="float-right">
-                            <a href="https://online.fliphtml5.com/sgafu/jqor/" class="btn btn-primary">Baca Selengkapnya</a>
+                        <div class="card-footer">
+                            <div class="float-right">
+                                <a href="https://online.fliphtml5.com/sgafu/jqor/" class="btn btn-primary">Baca Selengkapnya</a>
+                            </div>
                         </div>
                     </div>
 
