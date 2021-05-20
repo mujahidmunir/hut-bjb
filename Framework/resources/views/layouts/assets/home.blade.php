@@ -185,35 +185,6 @@
                 <div class="card col-lg-6 col-xl-6 col-md-6">
                     <div class="card-header d-flex justify-content-between">
                         <div class="header-title">
-                            <h3 class="card-title">{{$data->title}}</h3>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{$data->video_url}}"
-                                    allowfullscreen>
-                            </iframe>
-                        </div>
-                        <a href="https://www.youtube.com/watch?v={{$data->video_url}}" target="_blank" class="btn btn-warning btn-block" style="font-size: 2vh">
-                            <i class="fa fa-youtube-square" style="color: darkred"></i>
-                            Play On Youtube
-                        </a>
-                    </div>
-                    <div class="card-footer bg-white">
-                        <div class="justify-content-center" style="text-align: justify; font-size: 2vh;">
-
-                            <h4 class="card-title">{{$data->title}}</h4>
-                            <p class="mt-3 mb-3">Bersama host @rocknal & @tikeprie pada episode pertama dari The Banker Show akan berbincang bagaimana kita bisa 'survive' dalam badai pandemi yang sudah lebih dari satu tahun menerpa berbagai sendi kehidupan di seluruh dunia.</p>
-                            {!! $data->description !!}
-
-                        </div>
-
-                    </div>
-                </div>
-            @else
-                <div class="card col-lg-6 col-xl-6 col-md-6">
-                    <div class="card-header d-flex justify-content-between">
-                        <div class="header-title">
                             <h3 class="card-title">The Banker Show With Trio Urban Eps.02 </h3>
                         </div>
                     </div>
@@ -255,6 +226,35 @@
                                 <li>#tandamatauntuknegeri</li>
                                 <li>#salambjb</li>
                             </ol>
+
+                        </div>
+
+                    </div>
+                </div>
+            @else
+
+                <div class="card col-lg-6 col-xl-6 col-md-6">
+                    <div class="card-header d-flex justify-content-between">
+                        <div class="header-title">
+                            <h3 class="card-title">{{$data->title}}</h3>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{$data->video_url}}"
+                                    allowfullscreen>
+                            </iframe>
+                        </div>
+                        <a href="https://www.youtube.com/watch?v={{$data->video_url}}" target="_blank" class="btn btn-warning btn-block" style="font-size: 2vh">
+                            <i class="fa fa-youtube-square" style="color: darkred"></i>
+                            Play On Youtube
+                        </a>
+                    </div>
+                    <div class="card-footer bg-white">
+                        <div class="justify-content-center" style="text-align: justify; font-size: 2vh;">
+
+                            <h4 class="card-title">{{$data->title}}</h4>
+                            {!! $data->description !!}
 
                         </div>
 
