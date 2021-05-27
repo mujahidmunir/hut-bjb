@@ -52,7 +52,7 @@ class PromoController extends Controller
             ->select(
                 'information.thumb' , 'information.title' ,
                 'detail_information.*', 'categories.cat_name',
-                'detail_information.s&k as syarat', 'details_information.description'
+                'detail_information.s&k as syarat', 'detail_information.description'
             )
             ->first();
         return view ('pages.promo.detail-promo', $data);
