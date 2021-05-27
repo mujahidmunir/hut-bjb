@@ -396,7 +396,7 @@
                         <div class="justify-content-center" style="text-align: justify; font-size: 2vh;">
 
                             <h4 class="card-title">{{$data->title}}</h4>
-                            {!! $data->description !!}
+{{--                            {!! $data->description !!}--}}
 
                         </div>
 
