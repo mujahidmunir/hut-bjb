@@ -37,7 +37,7 @@
                 </div>
                 <div class="card-body">
                     @if($data->description != null)
-
+                        {!! $data->description !!}
                     @else
                     <h5 class="mb-2"><u>Syarat dan Ketentuan</u></h5>
                     <p>Mendapatkan Diskon 60% dengan maksimum transaksi sebesar Rp.60.000

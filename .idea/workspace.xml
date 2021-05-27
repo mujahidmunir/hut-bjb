@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bac1f41-0325-4726-99e6-55b76573cbd3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Framework/app/Http/Controllers/PromoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/app/Http/Controllers/PromoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/resources/views/pages/promo/detail-promo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/resources/views/pages/promo/detail-promo.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,7 +239,7 @@
       <workItem from="1621063512255" duration="1702000" />
       <workItem from="1621148011865" duration="9229000" />
       <workItem from="1621828039137" duration="727000" />
-      <workItem from="1622085414122" duration="1135000" />
+      <workItem from="1622085414122" duration="1182000" />
     </task>
     <servers />
   </component>
