@@ -47,8 +47,9 @@
                         <li>Berlaku untuk 1 kali Transaksi/hari/outlet&nbsp;</li>
                         <li>Bertransaksi menggunakan bjb Digi & bjb DIgi Cash&nbsp;</li>
                     </ul>
-                    <h5 class="mb-2"><u>Masa Berlaku Promo</u></h5>
+
                     @endif
+                    <h5 class="mb-2"><u>Masa Berlaku Promo</u></h5>
                     <p>{{$data->duration_promo}}</p>
 
                 </div>
