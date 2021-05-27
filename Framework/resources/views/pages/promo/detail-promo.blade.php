@@ -36,6 +36,9 @@
                     </div>
                 </div>
                 <div class="card-body">
+                    @if($data->description != null)
+
+                    @else
                     <h5 class="mb-2"><u>Syarat dan Ketentuan</u></h5>
                     <p>Mendapatkan Diskon 60% dengan maksimum transaksi sebesar Rp.60.000
                         Dengan Ketentuan :</p>
@@ -43,9 +46,9 @@
                         <li>Untuk 60 Orang pertama per-hari&nbsp;</li>
                         <li>Berlaku untuk 1 kali Transaksi/hari/outlet&nbsp;</li>
                         <li>Bertransaksi menggunakan bjb Digi & bjb DIgi Cash&nbsp;</li>
-                        <li>{{$data->syarat}}&nbsp;</li>
                     </ul>
                     <h5 class="mb-2"><u>Masa Berlaku Promo</u></h5>
+                    @endif
                     <p>{{$data->duration_promo}}</p>
 
                 </div>
