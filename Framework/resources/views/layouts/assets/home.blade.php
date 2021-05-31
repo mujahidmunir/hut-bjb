@@ -180,7 +180,7 @@
     </div>
 
     <div class="row col-12">
-        <div class="col-6">
+        <div class="col-lg-6">
             <blockquote class="instagram-media" data-instgrm-captioned
                         data-instgrm-permalink="https://www.instagram.com/p/CPFwEFUBu3I/?utm_source=ig_embed&amp;utm_campaign=loading"
                         data-instgrm-version="13"
@@ -259,7 +259,7 @@
             </blockquote>
             <script async src="//www.instagram.com/embed.js"></script>
         </div>
-        <div class="col-6">
+        <div class="col-lg-6">
             <blockquote class="instagram-media" data-instgrm-captioned
                         data-instgrm-permalink="https://www.instagram.com/tv/CPFz_XCBz68/?utm_source=ig_embed&amp;utm_campaign=loading"
                         data-instgrm-version="13"
